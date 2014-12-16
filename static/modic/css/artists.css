@@ -1,0 +1,522 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 1em/1.38 'Open Sans';
+  color: rgb(204, 204, 204);
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 54;
+  width: 100%;
+  height: 55px;
+  margin: 0 auto;
+  background-color: #009db1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+}
+
+.header:hover {
+  box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+}
+
+.highlight {
+  width: 940px;
+  min-width: 600px;
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.highlight .container {
+  float: left;
+}
+
+.highlight .text {
+  font-weight: 300;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 157, 177);
+}
+
+.image {
+  display: block;
+  height: auto;
+}
+
+.text-10 p {
+  margin-bottom: 1em;
+}
+
+._button {
+  display: block;
+  float: left;
+  line-height: 1.38;
+  text-align: center;
+}
+
+._element {
+  float: right;
+  width: 113px;
+  height: 55px;
+  margin-right: 10px;
+  background: url('../images/modic-slogan.png') rgba(0, 157, 177, 0);
+  background-repeat: no-repeat;
+  background-size: 110.5px 9.5px;
+  background-position: right center;
+}
+
+.header ._button {
+  height: 55px;
+  background-color: rgb(0, 157, 177);
+}
+
+.header ._button:hover {
+  text-indent: 0;
+}
+
+.header ._container {
+  height: 55px;
+}
+
+.highlight ._button {
+  width: 117px;
+  height: 332px;
+  border-bottom-right-radius: 3px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: rgb(222, 222, 222);
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.highlight ._button:hover {
+  box-shadow: 0 19px 18px rgba(0, 0, 0, .5);
+  -webkit-transform: translateY(-17px);
+  -moz-transform: translateY(-17px);
+  -o-transform: translateY(-17px);
+  -ms-transform: translateY(-17px);
+  transform: translateY(-17px);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.container-1 {
+  width: 100%;
+  min-width: 600px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.container-10 {
+  width: 12.5%;
+  height: 386px;
+  margin: -386px 0 0 37.55153%;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+.container-11 {
+  width: 12.5%;
+  height: 386px;
+  margin: -386px 0 0 50%;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+.container-12 {
+  width: 12.5%;
+  height: 386px;
+  margin: -386px 0 0 62.55153%;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+.container-13 {
+  width: 12.5%;
+  height: 386px;
+  margin: -386px 0 0 75%;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+.container-14 {
+  width: 12.5%;
+  height: 386px;
+  margin: -386px 0 0 87.44681%;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+.container-15 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 28;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.container-16 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 52;
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 50px;
+  background-color: rgb(0, 0, 0);
+}
+
+.container-17 {
+  width: 97.9166666666%;
+  min-width: 600px;
+  max-width: 940px;
+  margin: 24px auto 0;
+  padding-bottom: 14px;
+  border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+.container-18 {
+  width: 97.9199609374%;
+  min-width: 600px;
+  max-width: 940px;
+  margin: 9px auto 0;
+}
+
+.container-19 {
+  float: right;
+  width: 105px;
+  height: 32px;
+  overflow: visible;
+}
+
+.container-2 {
+  float: left;
+  width: 150px;
+  margin-left: 10px;
+}
+
+.container-4 {
+  position: relative;
+  float: left;
+  z-index: 30;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.container-5 {
+  width: 100.0017021276%;
+  margin-left: -0.00166%;
+  border-bottom: 1px solid rgb(0, 157, 177);
+}
+
+.container-6 {
+  clear: both;
+  width: 940px;
+  margin-top: 18px;
+}
+
+.container-7 {
+  width: 12.5%;
+  height: 386px;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+.container-8 {
+  width: 12.5%;
+  height: 386px;
+  margin-left: 0.05153%;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+.container-9 {
+  clear: both;
+  width: 12.5%;
+  height: 386px;
+  margin: -386px 0 0 25%;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+.image-1 {
+  width: 633px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.image-2 {
+  float: left;
+  width: 77px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.image-3 {
+  float: left;
+  width: 72px;
+  margin: 4px 0 0 48px;
+  overflow: visible;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.image-4 {
+  float: left;
+  width: 30px;
+  margin: 6px 0 0 3.03358%;
+  overflow: visible;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.image-3:hover,
+.image-4:hover {
+  -webkit-transform: scale(1.1,1.1);
+  -moz-transform: scale(1.1,1.1);
+  -o-transform: scale(1.1,1.1);
+  -ms-transform: scale(1.1,1.1);
+  transform: scale(1.1,1.1);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.text-1 {
+  min-height: 20px;
+  margin: 0 auto;
+  font-size: 4em;
+}
+
+.text-10 {
+  float: left;
+  width: 125px;
+  font-size: 0.563em;
+  font-weight: 400;
+  line-height: 0.6;
+  color: rgb(204, 204, 204);
+}
+
+.text-11 {
+  float: left;
+  font-size: 0.563em;
+  font-weight: 400;
+  line-height: 1.8;
+  color: rgb(204, 204, 204);
+}
+
+.text-12 {
+  width: 97.9166666666%;
+  min-width: 600px;
+  max-width: 940px;
+  margin: 26px auto 0;
+  font-size: 0.563em;
+  font-weight: 400;
+  line-height: 0.6;
+  color: rgb(0, 157, 177);
+}
+
+.text-2,
+.text-4,
+.text-6,
+.text-8 {
+  float: left;
+  clear: both;
+  width: 117px;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+.text-3,
+.text-5,
+.text-7,
+.text-9 {
+  float: left;
+  clear: both;
+  width: 117px;
+  margin: 10px 0 0 -0.39232%;
+  font-size: 1em;
+}
+
+.container ._button-1 {
+  width: 90px;
+  padding-left: 1px;
+  background-image: url('../images/modic-logo(2).png');
+  background-repeat: no-repeat;
+  background-size: 77px auto;
+  background-position: left center;
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container ._button-1:hover {
+  -webkit-transform: translate(20px,0px);
+  -moz-transform: translate(20px,0px);
+  -o-transform: translate(20px,0px);
+  -ms-transform: translate(20px,0px);
+  transform: translate(20px,0px);
+  -webkit-transition: 0.3s,0.5s;
+  -moz-transition: 0.3s,0.5s;
+  -o-transition: 0.3s,0.5s;
+  -ms-transition: 0.3s,0.5s;
+  transition: 0.3s,0.5s;
+}
+
+.container ._button-10 {
+  background-image: url('../images/IMG_1069.jpg');
+}
+
+.container ._button-11 {
+  margin-left: -0.39232%;
+  background-image: url('../images/IMG_0202.jpg');
+}
+
+.container ._button-12 {
+  background-image: url('../images/IMG_0159.jpg');
+}
+
+.container ._button-13 {
+  margin-left: -0.39232%;
+  background-image: url('../images/IMG_0115.jpg');
+}
+
+.container ._button-14 {
+  background-image: url('../images/IMG_0971.jpg');
+}
+
+.container ._button-15 {
+  margin-left: -0.39232%;
+  background-image: url('../images/IMG_0014.jpg');
+}
+
+.container ._button-10:hover,
+.container ._button-11:hover,
+.container ._button-12:hover,
+.container ._button-13:hover,
+.container ._button-14:hover,
+.container ._button-15:hover,
+.container ._button-9:hover {
+  bottom: auto;
+  right: auto;
+  margin-right: 0;
+}
+
+.container ._button-16 {
+  width: 35px;
+  height: 32px;
+  background-image: url('../images/fb-icon.png');
+  background-repeat: no-repeat;
+  background-size: 23.5px auto;
+  background-position: center center;
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.container ._button-17 {
+  width: 35px;
+  height: 32px;
+  background-image: url('../images/sc-icon.png');
+  background-repeat: no-repeat;
+  background-size: 23.5px auto;
+  background-position: center center;
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.container ._button-18 {
+  width: 34px;
+  height: 32px;
+  background-image: url('../images/youtube-icon.png');
+  background-repeat: no-repeat;
+  background-size: 23.5px auto;
+  background-position: center center;
+  font-size: 1em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+
+.container ._button-2,
+.container ._button-3,
+.container ._button-4,
+.container ._button-5,
+.container ._button-6,
+.container ._button-7 {
+  padding-right: 16px;
+  padding-left: 9px;
+  font-size: 0.875em;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.7);
+  white-space: normal;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container ._button-2:hover,
+.container ._button-3:hover,
+.container ._button-4:hover,
+.container ._button-5:hover,
+.container ._button-6:hover,
+.container ._button-7:hover {
+  bottom: auto;
+  right: auto;
+  width: auto;
+  margin-right: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-right-style: none;
+  border-left-style: none;
+  background-color: rgb(0, 157, 177);
+  text-shadow: 0 0 5px rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 0;
+  color: rgb(255, 255, 255);
+  -webkit-transition: 0.5;
+  -moz-transition: 0.5;
+  -o-transition: 0.5;
+  -ms-transition: 0.5;
+  transition: 0.5;
+}
+
+.container ._button-8 {
+  background-image: url('../images/IMG_0049.jpg');
+}
+
+.container ._button-9 {
+  margin-left: -0.39232%;
+  background-image: url('../images/IMG_0874.jpg');
+}
