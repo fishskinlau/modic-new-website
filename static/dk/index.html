@@ -8,8 +8,20 @@
   <link rel="stylesheet" href="css/standardize.css">
   <link rel="stylesheet" href="css/index-grid.css">
   <link rel="stylesheet" href="css/index.css">
+  <!-- Slick slide -->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <!-- fancy box -->
+  <!--
+  <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+  -->
 </head>
 <body class="body index clearfix">
+  <div style="text-align:center;position:fixed;top:10%;width:100%">
+    <video controls loop autoplay>
+      <source src="gizmo.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
   <div class="container container-1 clearfix">
     <button onClick="window.location='tutors.html';" class="_button _button-1"></button>
     <button onClick="window.location='http://www.modic.com.hk';" class="_button _button-2"><span>&nbsp;</span></button>
@@ -19,20 +31,45 @@
     <div class="container container-3 clearfix">
       <p class="text text-2">VIDEOS</p>
       <div class="container container-4 clearfix">
-        <button class="_button _button-3">&lt;</button>
+        <button id="prev_button" class="_button _button-3">&lt;</button>
         <div class="container container-5 clearfix">
-          <button class="_button _button-4"><span>&nbsp;</span></button>
-          <button class="_button _button-5"><span>&nbsp;</span></button>
-          <button class="_button _button-6"><span>&nbsp;</span></button>
-          <button class="_button _button-7"><span>&nbsp;</span></button>
-          <button class="_button _button-8"><span>&nbsp;</span></button>
+          <div class="video_slide">
+			<!--
+            <div><button class="_button"><a class="fancybox" href="https://www.youtube.com/watch?v=mjfsuHXCiyw"><img src="http://img.youtube.com/vi/mjfsuHXCiyw/hqdefault.jpg" alt="" /></a></button></div>
+			-->
+            <div><button class="_button _button-4"><span>&nbsp;</span></button></div>
+            <div><button class="_button _button-5"><span>&nbsp;</span></button></div>
+            <div><button class="_button _button-6"><span>&nbsp;</span></button></div>
+            <div><button class="_button _button-7"><span>&nbsp;</span></button></div>
+            <div><button class="_button _button-8"><span>&nbsp;</span></button></div>
+          </div>
         </div>
-        <button class="_button _button-9">&gt;</button>
+        <button id="next_button" class="_button _button-9">&gt;</button>
       </div>
     </div>
   </div>
   <div class="container container-6 clearfix">
     <img class="image" src="images/dk-logo.png">
   </div>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <!--
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  -->
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <script type="text/javascript">
+        $(document).ready(function(){
+            $('.video_slide').slick({
+                infinite: true,
+                prevArrow: prev_button,
+                nextArrow: next_button,
+                lazyLoad: 'ondemand',
+                slidesToShow: 5,
+                slidesToScroll: 1
+            });
+            //$(".fancybox").fancybox();
+        });
+  </script>
 </body>
 </html>
