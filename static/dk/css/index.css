@@ -202,6 +202,20 @@ body {
   transition: 0.5s;
 }
 
+.container ._button-item {
+  width: 132px;
+  height: 80px;
+  border-radius: 3px;
+  /*
+  background: url('../images/FH558156_393high.jpg') rgb(222, 222, 222);
+  background-size: cover;
+  */
+  background-position: center center;
+  font-family: 'Open Sans';
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}
+
 .container ._button-4 {
   width: 132px;
   height: 80px;
