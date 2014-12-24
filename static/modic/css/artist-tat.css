@@ -965,3 +965,16 @@ body {
   line-height: 1.38;
   color: rgb(0, 0, 0);
 }
+
+.container ._button-video {
+  width: 170px;
+  height: 113px;
+  border-radius: 3px;
+  background: url('../images/Screen%20Shot%202014-11-25%20at%209.42.22%20pm.png') rgb(222, 222, 222);
+  background-size: cover;
+  background-position: center center;
+  font-size: 1.6em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 0, 0);
+}

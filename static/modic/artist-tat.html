@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="css/standardize.css">
   <link rel="stylesheet" href="css/artist-tat-grid.css">
   <link rel="stylesheet" href="css/artist-tat.css">
+  <!-- Slick slide -->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <!-- fancy box -->
+  <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 </head>
 <body class="body artist-tat clearfix">
   <div class="header clearfix">
@@ -56,14 +60,53 @@
       <p class="text text-4">VIDEO</p>
     </div>
     <div class="container container-16 clearfix">
-      <button class="_button _button-8">&lt;</button>
+      <button id="prev_button" class="_button _button-8">&lt;</button>
       <div class="container container-17 clearfix">
-        <button class="_button _button-9"><span>&nbsp;</span></button>
-        <button class="_button _button-10"><span>&nbsp;</span></button>
-        <button class="_button _button-11"><span>&nbsp;</span></button>
-        <button class="_button _button-12"><span>&nbsp;</span></button>
+        <div class="video_slide">
+          <div>
+            <a class="fancybox-media" href="//www.youtube.com/watch?v=pBsgRsSACJs">
+              <button class="_button _button-video" style="background: url('//img.youtube.com/vi/pBsgRsSACJs/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
+            </a>
+          </div>
+          <div>
+            <a class="fancybox-media" href="//www.youtube.com/watch?v=KFoScn7GyJI">
+              <button class="_button _button-video" style="background: url('//img.youtube.com/vi/KFoScn7GyJI/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
+            </a>
+          </div>
+          <div>
+            <a class="fancybox-media" href="//www.youtube.com/watch?v=jA9Nnw7sAgs">
+              <button class="_button _button-video" style="background: url('//img.youtube.com/vi/jA9Nnw7sAgs/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
+            </a>
+          </div>
+          <div>
+            <a class="fancybox-media" href="//www.youtube.com/watch?v=S4SOqKuQUFk">
+              <button class="_button _button-video" style="background: url('//img.youtube.com/vi/S4SOqKuQUFk/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
+            </a>
+          </div>
+          <div>
+            <a class="fancybox-media" href="//www.youtube.com/watch?v=CdTGTyAWbqY">
+              <button class="_button _button-video" style="background: url('//img.youtube.com/vi/CdTGTyAWbqY/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
+            </a>
+          </div>
+          <div>
+            <a class="fancybox-media" href="//www.youtube.com/watch?v=nDKYuY7zOZ4">
+              <button class="_button _button-video" style="background: url('//img.youtube.com/vi/nDKYuY7zOZ4/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
+            </a>
+          </div>
+          <div>
+            <a class="fancybox-media" href="//www.youtube.com/watch?v=_dkfnGgKlEU">
+              <button class="_button _button-video" style="background: url('//img.youtube.com/vi/_dkfnGgKlEU/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
+            </a>
+          </div>
+        </div>
+		<!--
+        <button class="_button _button-video"><span>&nbsp;</span></button>
+        <button class="_button _button-video"><span>&nbsp;</span></button>
+        <button class="_button _button-video"><span>&nbsp;</span></button>
+        <button class="_button _button-video"><span>&nbsp;</span></button>
+		-->
       </div>
-      <button class="_button _button-13">&gt;</button>
+      <button id="next_button" class="_button _button-13">&gt;</button>
     </div>
   </div>
   <div class="container container-18 clearfix">
@@ -156,7 +199,39 @@ Miss H.K（Feat. Gold Mountain）<br>2 . 逃避現實
     <div class="text text-21">© 2014 a Modic product. all rights reserved.</div>
   </div>
 
+  <!--
   <script src="js/jquery-min.js"></script>
+  -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="js/rimages.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  <script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+  <script type="text/javascript">
+        $(document).ready(function(){
+            $('.video_slide').slick({
+                infinite: true,
+                prevArrow: prev_button,
+                nextArrow: next_button,
+                lazyLoad: 'ondemand',
+                slidesToShow: 4,
+                slidesToScroll: 1
+            });
+            $('.fancybox-media')
+                .attr('rel', 'media-gallery')
+                .fancybox({
+                    openEffect : 'none',
+                    closeEffect : 'none',
+                    prevEffect : 'none',
+                    nextEffect : 'none',
+
+                    arrows : false,
+                    helpers : {
+                        media : {},
+                        buttons : {}
+                    }
+                });
+        });
+  </script>
 </body>
 </html>
