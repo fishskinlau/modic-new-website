@@ -14,12 +14,12 @@
   <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 </head>
 <body class="body index clearfix">
-  <div style="text-align:center;position:fixed;width:100%">
+  <div style="text-align:center;position:fixed;width:100%;">
     <!--video controls loop autoplay height="auto" width="100%">
       <source src="gizmo.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video-->
-        <iframe width="1280px" height="720px" src="//www.youtube.com/embed/O3CX5Lx6rFA?autoplay=1&controls=0&loop=1&playlist=O3CX5Lx6rFA" frameborder="0" allowfullscreen  ></iframe>
+        <iframe id="video_frame" width="1280px" height="720px" frameborder="0" allowfullscreen  ></iframe>
 
   </div>
   <div class="container container-1 clearfix">
@@ -34,40 +34,26 @@
         <button id="prev_button" class="_button _button-3">&lt;</button>
         <div class="container container-5 clearfix">
           <div class="video_slide">
-            <div>
-              <a class="fancybox-media" href="http://www.youtube.com/watch?v=mjfsuHXCiyw">
-                <button class="_button _button-item" style="background: url('//img.youtube.com/vi/mjfsuHXCiyw/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
-              </a>
+            <div >
+              <button class="_button _button-item" onclick="playYoutube('mjfsuHXCiyw')" style="background: url('//img.youtube.com/vi/mjfsuHXCiyw/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
             </div>
             <div>
-              <a class="fancybox-media" href="http://www.youtube.com/watch?v=Rf9Xr9Z0UVc">
-                <button class="_button _button-item" style="background: url('//img.youtube.com/vi/Rf9Xr9Z0UVc/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
-              </a>
+              <button class="_button _button-item" onclick="playYoutube('Rf9Xr9Z0UVc')" style="background: url('//img.youtube.com/vi/Rf9Xr9Z0UVc/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
             </div>
             <div>
-              <a class="fancybox-media" href="http://www.youtube.com/watch?v=MmXFNKxqcIY">
-                <button class="_button _button-item" style="background: url('//img.youtube.com/vi/MmXFNKxqcIY/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
-              </a>
+              <button class="_button _button-item" onclick="playYoutube('MmXFNKxqcIY')" style="background: url('//img.youtube.com/vi/MmXFNKxqcIY/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
             </div>
             <div>
-              <a class="fancybox-media" href="http://www.youtube.com/watch?v=42UKfhMihDM">
-                <button class="_button _button-item" style="background: url('//img.youtube.com/vi/42UKfhMihDM/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
-              </a>
+              <button class="_button _button-item" onclick="playYoutube('42UKfhMihDM')" style="background: url('//img.youtube.com/vi/42UKfhMihDM/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
             </div>
             <div>
-              <a class="fancybox-media" href="http://www.youtube.com/watch?v=MvGqNr_laX8">
-                <button class="_button _button-item" style="background: url('//img.youtube.com/vi/MvGqNr_laX8/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
-              </a>
+              <button class="_button _button-item" onclick="playYoutube('MvGqNr_laX8')" style="background: url('//img.youtube.com/vi/MvGqNr_laX8/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
             </div>
             <div>
-              <a class="fancybox-media" href="http://www.youtube.com/watch?v=sObKrXviBbw">
-                <button class="_button _button-item" style="background: url('//img.youtube.com/vi/sObKrXviBbw/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
-              </a>
+              <button class="_button _button-item" onclick="playYoutube('sObKrXviBbw')" style="background: url('//img.youtube.com/vi/sObKrXviBbw/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
             </div>
             <div>
-              <a class="fancybox-media" href="http://www.youtube.com/watch?v=6n9Hv6IiNuk">
-                <button class="_button _button-item" style="background: url('//img.youtube.com/vi/6n9Hv6IiNuk/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
-              </a>
+              <button class="_button _button-item" onclick="playYoutube('6n9Hv6IiNuk')" style="background: url('//img.youtube.com/vi/6n9Hv6IiNuk/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
             </div>
           </div>
         </div>
@@ -94,23 +80,18 @@
                 nextArrow: next_button,
                 lazyLoad: 'ondemand',
                 slidesToShow: 5,
-                slidesToScroll: 1
+                slidesToScroll: 1,
+                initialSlide: -2
             });
-            $('.fancybox-media')
-				.attr('rel', 'media-gallery')
-				.fancybox({
-					openEffect : 'none',
-					closeEffect : 'none',
-					prevEffect : 'none',
-					nextEffect : 'none',
-
-					arrows : false,
-					helpers : {
-						media : {},
-						buttons : {}
-					}
-				});
         });
+        function playYoutube(yid) {
+			var video_frame = document.getElementById('video_frame');
+			video_frame.src='//www.youtube.com/embed/' + yid + '?autoplay=1&controls=0&loop=1&playlist=' + yid;
+			//video_frame.width = windows.width;
+			//video_frame.height = 720*(windows.width/1280) + 'px';
+		}
+		// initial video
+		playYoutube('mjfsuHXCiyw');
   </script>
 </body>
 </html>
