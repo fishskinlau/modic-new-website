@@ -27,31 +27,32 @@
     </div>
   </div>
   <div class="container container-4 clearfix">
-	<div class="main">
-		<div class="main_slide" style="width: 100%; height: 100%">
-			<div style="text-align:center">
-				<video loop style="width:auto;height:550px;" onmouseover="this.play();" onmouseout="this.pause()">
-				  <source src="gizmo.mp4" type="video/mp4">
-				  Your browser does not support the video tag.
-				</video>
-			</div>
-			<div style="text-align:center" >
-				<video loop style="width:auto;height:550px;" onmouseover="this.play();" onmouseout="this.pause()">
-				  <source src="Game of Thrones (opening).mp4" type="video/mp4">
-				  Your browser does not support the video tag.
-				</video>
-			</div>
-			
-		</div>
-	</div>
+    <div class="main">
+        <!-- use oncanplay to solve chrome autoplay problem -->
+        <div class="main_slide" style="width: 100%; height: 100%">
+            <div style="text-align:center">
+                <video preload="auto" autoplay loop muted style="width:auto;height:550px;" oncanplay="this.play();" onmouseover="this.muted = '';" onmouseout="this.muted = 'muted';">
+                  <source src="gizmo.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+            </div>
+            <div style="text-align:center" >
+                <video preload="auto" autoplay loop muted style="width:auto;height:550px;" oncanplay="this.play();" onmouseover="this.muted = '';" onmouseout="this.muted = 'muted';">
+                  <source src="Game_of_Thrones_opening.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+            </div>
+            
+        </div>
+    </div>
     <div class="container container-5 clearfix">
       <p class="text text-1">BEYOURSELF, NO MATTER WHAT THEY SAY.</p>
     </div>
-	<!--
+    <!--
     <div class="container container-6 clearfix">
       <p class="text text-2">. . . .</p>
     </div>
-	-->
+    -->
   </div>
   <div class="container container-7 clearfix">
     <div class="highlight clearfix">
@@ -84,41 +85,77 @@ There are a variety of cold heading machines but typically for Fastener manufact
         <div class="container container-17 clearfix">
           <p class="text text-10">NEWS</p>
         </div>
-        <div class="container container-18 clearfix">
-          <div class="container _element container-19"></div>
-          <div class="container container-20 clearfix">
-            <p class="text text-11">Nov 16, 2014</p>
-            <p class="text text-12">NEWS HEADING</p>
-            <p class="text text-13">Ms Castro also raised the subject of future co-operation with the corporation when it needs to film in the South American country.
+        <div class="container news_slide">
+            <div class="container container-18 clearfix">
+              <div class="container _element container-19"></div>
+              <div class="container container-20 clearfix">
+                <p class="text text-11">Nov 16, 2014</p>
+                <p class="text text-12">NEWS HEADING</p>
+                <p class="text text-13">Ms Castro also raised the subject of future co-operation with the corporation when it needs to film in the South American country.
 
-In a letter to the BBC Trust, the corporation's governing body, Ms Castro said Clarkson's behaviour in the country fell "well below" BBC editorial values, accusing them of "covering up".</p>
-          </div>
+    In a letter to the BBC Trust, the corporation's governing body, Ms Castro said Clarkson's behaviour in the country fell "well below" BBC editorial values, accusing them of "covering up".</p>
+              </div>
+            </div>
+            
+                <div class="container container-18 clearfix">
+                  <div class="container _element container-22"></div>
+                  <div class="container container-23 clearfix">
+                    <p class="text text-14">Nov 16, 2014</p>
+                    <p class="text text-15">NEWS HEADING</p>
+                    <p class="text text-16">Ms Castro also raised the subject of future co-operation with the corporation when it needs to film in the South American country.
+
+        In a letter to the BBC Trust, the corporation's governing body, Ms Castro said Clarkson's behaviour in the country fell "well below" BBC editorial values, accusing them of "covering up".</p>
+                  </div>
+                </div>
+                <div class="container container-18 clearfix">
+                  <div class="container _element container-25"></div>
+                  <div class="container container-26 clearfix">
+                    <p class="text text-17">Nov 16, 2014</p>
+                    <p class="text text-18">NEWS HEADING</p>
+                    <p class="text text-19">Ms Castro also raised the subject of future co-operation with the corporation when it needs to film in the South American country.
+
+        In a letter to the BBC Trust, the corporation's governing body, Ms Castro said Clarkson's behaviour in the country fell "well below" BBC editorial values, accusing them of "covering up".</p>
+                  </div>
+                </div>
         </div>
-        <div class="container container-21 clearfix">
-          <div class="container _element container-22"></div>
-          <div class="container container-23 clearfix">
-            <p class="text text-14">Nov 16, 2014</p>
-            <p class="text text-15">NEWS HEADING</p>
-            <p class="text text-16">Ms Castro also raised the subject of future co-operation with the corporation when it needs to film in the South American country.
+        <div class="container news_slide">
+            <div class="container container-18 clearfix">
+              <div class="container _element container-19"></div>
+              <div class="container container-20 clearfix">
+                <p class="text text-11">Nov 16, 2014</p>
+                <p class="text text-12">NEWS HEADING</p>
+                <p class="text text-13">Ms Castro also raised the subject of future co-operation with the corporation when it needs to film in the South American country.
 
-In a letter to the BBC Trust, the corporation's governing body, Ms Castro said Clarkson's behaviour in the country fell "well below" BBC editorial values, accusing them of "covering up".</p>
-          </div>
-        </div>
-        <div class="container container-24 clearfix">
-          <div class="container _element container-25"></div>
-          <div class="container container-26 clearfix">
-            <p class="text text-17">Nov 16, 2014</p>
-            <p class="text text-18">NEWS HEADING</p>
-            <p class="text text-19">Ms Castro also raised the subject of future co-operation with the corporation when it needs to film in the South American country.
+    In a letter to the BBC Trust, the corporation's governing body, Ms Castro said Clarkson's behaviour in the country fell "well below" BBC editorial values, accusing them of "covering up".</p>
+              </div>
+            </div>
+            
+                <div class="container container-18 clearfix">
+                  <div class="container _element container-25"></div>
+                  <div class="container container-26 clearfix">
+                    <p class="text text-17">Nov 16, 2014</p>
+                    <p class="text text-18">NEWS HEADING</p>
+                    <p class="text text-19">Ms Castro also raised the subject of future co-operation with the corporation when it needs to film in the South American country.
 
-In a letter to the BBC Trust, the corporation's governing body, Ms Castro said Clarkson's behaviour in the country fell "well below" BBC editorial values, accusing them of "covering up".</p>
-          </div>
+        In a letter to the BBC Trust, the corporation's governing body, Ms Castro said Clarkson's behaviour in the country fell "well below" BBC editorial values, accusing them of "covering up".</p>
+                  </div>
+                </div>
+                <div class="container container-18 clearfix">
+                  <div class="container _element container-22"></div>
+                  <div class="container container-23 clearfix">
+                    <p class="text text-14">Nov 16, 2014</p>
+                    <p class="text text-15">NEWS HEADING</p>
+                    <p class="text text-16">Ms Castro also raised the subject of future co-operation with the corporation when it needs to film in the South American country.
+
+        In a letter to the BBC Trust, the corporation's governing body, Ms Castro said Clarkson's behaviour in the country fell "well below" BBC editorial values, accusing them of "covering up".</p>
+                  </div>
+                </div>
         </div>
         <div class="container container-27 clearfix">
-          <p class="text text-20"><a id="newer_headline">&lt; NEWER &nbsp;</a>/ <a>&nbsp;OLDER &gt;</a></p>
+          <p class="text text-20"><a id="newer_headline" href="javascript:" onClick="displayPrevNews();" style="color: inherit;">&lt; NEWER &nbsp;</a>/ <a id="older_headline" href="javascript:" onClick="displayNextNews();" style="color: inherit;">&nbsp;OLDER &gt;</a></p>
         </div>
       </div>
-      <div class="news clearfix">
+      <div class="news clearfix" style="height: 839px">
         <p class="text text-21">WHEREABOUTS</p>
         <div class="container container-28 clearfix">
           <p class="text text-22">Dec 12 , 2013</p>
@@ -136,6 +173,27 @@ In a letter to the BBC Trust, the corporation's governing body, Ms Castro said C
           <p class="text text-30">Building off of the momentum of past successful conferences, Golden Networking brings Cyber Security World Conference 2014 New York City, forum that will bring the latest thinking from security experts to hundreds of senior executives focused on protecting enterprises’ information assets.</p>
         </div>
         <div class="container container-31 clearfix">
+          <p class="text text-31">Dec 12 , 2013</p>
+          <p class="text text-32">Charity Event For Military Held At Vista Motorcycle Service Center</p>
+          <p class="text text-33">Building off of the momentum of past successful conferences, Golden Networking brings Cyber Security World Conference 2014 New York City, forum that will bring the latest thinking from security experts to hundreds of senior executives focused on protecting enterprises’ information assets.</p>
+        </div>
+		<!-- test scroll -->
+		<div class="container container-31 clearfix">
+          <p class="text text-31">Dec 12 , 2013</p>
+          <p class="text text-32">Charity Event For Military Held At Vista Motorcycle Service Center</p>
+          <p class="text text-33">Building off of the momentum of past successful conferences, Golden Networking brings Cyber Security World Conference 2014 New York City, forum that will bring the latest thinking from security experts to hundreds of senior executives focused on protecting enterprises’ information assets.</p>
+        </div>
+		<div class="container container-31 clearfix">
+          <p class="text text-31">Dec 12 , 2013</p>
+          <p class="text text-32">Charity Event For Military Held At Vista Motorcycle Service Center</p>
+          <p class="text text-33">Building off of the momentum of past successful conferences, Golden Networking brings Cyber Security World Conference 2014 New York City, forum that will bring the latest thinking from security experts to hundreds of senior executives focused on protecting enterprises’ information assets.</p>
+        </div>
+		<div class="container container-31 clearfix">
+          <p class="text text-31">Dec 12 , 2013</p>
+          <p class="text text-32">Charity Event For Military Held At Vista Motorcycle Service Center</p>
+          <p class="text text-33">Building off of the momentum of past successful conferences, Golden Networking brings Cyber Security World Conference 2014 New York City, forum that will bring the latest thinking from security experts to hundreds of senior executives focused on protecting enterprises’ information assets.</p>
+        </div>
+		<div class="container container-31 clearfix">
           <p class="text text-31">Dec 12 , 2013</p>
           <p class="text text-32">Charity Event For Military Held At Vista Motorcycle Service Center</p>
           <p class="text text-33">Building off of the momentum of past successful conferences, Golden Networking brings Cyber Security World Conference 2014 New York City, forum that will bring the latest thinking from security experts to hundreds of senior executives focused on protecting enterprises’ information assets.</p>
@@ -236,7 +294,7 @@ On the thin ice of modern life</p>
     <div class="container container-49 clearfix">
       <div class="text text-46">
         <p>T &nbsp;3527 7000</p>
-        <p>F &nbsp;3521 1200	</p>
+        <p>F &nbsp;3521 1200    </p>
         <p>E &nbsp;info@modic.hk</p>
 </div>
       <p class="text text-47">Unit 208-210, Metro Centre Phase 1, 32 Lam Hing Street, Kowloon Bay, Hong Kong&nbsp;<br>香港九龍灣臨興街32號美羅中心一期208-210室</p>
@@ -259,13 +317,41 @@ On the thin ice of modern life</p>
         $(document).ready(function(){
             $('.main_slide').slick({
                 infinite: true,
-				arrows: false,
+                arrows: false,
                 lazyLoad: 'ondemand',
                 slidesToShow: 1,
                 slidesToScroll: 1,
-				dots: true
+                dots: true
             });
+            
         });
+        // self-made pagination
+        var news_index = 0;
+        var news_slides = $('.news_slide');
+        function displayNews(i) {
+            $.each(news_slides, function (index, data) {
+                if (index == i) {
+                    $(this).fadeIn("slow");
+                    //$(this).css('display', 'block');
+                } else {
+                    $(this).css('display', 'none');
+                };
+            });
+        };
+        function displayNextNews() {
+            if (news_index < news_slides.length - 1) {
+                news_index++;
+                displayNews(news_index);
+            }
+        };
+        function displayPrevNews() {
+            if (news_index > 0) {
+                news_index--;
+                displayNews(news_index);
+            }
+        };
+        // init news slide
+        displayNews(news_index);
   </script>
 </body>
 </html>
