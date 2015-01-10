@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
   <meta name="viewport" content="width=980px,min-scale=1.0">
   
   <title>MODIC</title>
@@ -27,35 +28,47 @@
       <div class="container _element"></div>
     </div>
   </div>
-  <div class="container container-4 clearfix">
+  <div class="main_slide container container-4 clearfix">
     <div class="main" style="background-image:url('./images/news/top-1-still.jpg');">
-    	
         <!-- use oncanplay to solve chrome autoplay problem -->
-        <div class="main_slide" style="width: 100%; height: 100%">
-            <div style="text-align:center">
-                <video id="video1" preload="auto" autoplay loop muted style="width:auto;height:550px;" oncanplay="this.play();" onmouseover="this.muted = '';" onmouseout="this.muted = 'muted';" hidden="true">
+        <div style="width: 100%; height:550px;text-align:center">
+            <!--align helper -->
+            <span style="height:100%;display:inline-block;vertical-align:middle;"></span>
+            <a href="javascript:" style="color: rgba(0, 0, 0, 0.0);"><img id="playButton1" src="images/play_button.png" style="width: 50px; height:50px; margin: auto; display:inline-block; vertical-align: middle;" onclick="displayVideo('playButton1', 'video1')"/></a>
+                <video id="video1" loop style="width:auto;height:550px; display:inline-block; vertical-align: middle;" onclick="this.pause();" onpause="hideVideo('playButton1', 'video1')" >
                   <source src="gizmo.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
-            </div>
-            <div style="text-align:center" >
-                <video id="video2" preload="auto" autoplay loop muted style="width:auto;height:550px;" oncanplay="this.play();" onmouseover="this.muted = '';" onmouseout="this.muted = 'muted';" hidden="true">
+            
+        </div>
+        <div class="container container-5 clearfix">
+            <p class="text text-1">BEYOURSELF, NO MATTER WHAT THEY SAY.</p>
+        </div>
+    </div>
+    <div class="main" style="background-image:url('./images/news/top-2-still.jpg');">
+        <!-- use oncanplay to solve chrome autoplay problem -->
+        <div style="width: 100%; height:550px;text-align:center">
+            <!--align helper -->
+            <span style="height:100%;display:inline-block;vertical-align:middle;"></span>
+            <a href="javascript:" style="color: rgba(0, 0, 0, 0.0);"><img id="playButton2" src="images/play_button.png" style="width: 50px; height:50px; margin: auto; display:inline-block; vertical-align: middle;" onclick="displayVideo('playButton2', 'video2')"/></a>
+                <video id="video2" loop style="width:auto;height:550px; display:none; vertical-align: middle;" onclick="this.pause();" onpause="hideVideo('playButton2', 'video2')" >
                   <source src="Game_of_Thrones_opening.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>
-            </div>
             
         </div>
+        <div class="container container-5 clearfix">
+            <p class="text text-1">BEYOURSELF, NO MATTER WHAT THEY SAY.</p>
+        </div>
     </div>
-    <div class="container container-5 clearfix">
-      <p class="text text-1">BEYOURSELF, NO MATTER WHAT THEY SAY.</p>
-    </div>
+    
     <!--
     <div class="container container-6 clearfix">
       <p class="text text-2">. . . .</p>
     </div>
     -->
   </div>
+  
   <div class="container container-7 clearfix">
     <div class="highlight clearfix">
       <div class="container container-8 clearfix">
@@ -183,23 +196,23 @@ Rico說與Anthony合作獲益良多，以往自己雖以填詞為主，但偶爾
           <p class="text text-32">Charity Event For Military Held At Vista Motorcycle Service Center</p>
           <p class="text text-33">Building off of the momentum of past successful conferences, Golden Networking brings Cyber Security World Conference 2014 New York City, forum that will bring the latest thinking from security experts to hundreds of senior executives focused on protecting enterprises’ information assets.</p>
         </div>
-		<!-- test scroll -->
-		<div class="container container-31 clearfix">
+        <!-- test scroll -->
+        <div class="container container-31 clearfix">
           <p class="text text-31">Dec 12 , 2013</p>
           <p class="text text-32">Charity Event For Military Held At Vista Motorcycle Service Center</p>
           <p class="text text-33">Building off of the momentum of past successful conferences, Golden Networking brings Cyber Security World Conference 2014 New York City, forum that will bring the latest thinking from security experts to hundreds of senior executives focused on protecting enterprises’ information assets.</p>
         </div>
-		<div class="container container-31 clearfix">
+        <div class="container container-31 clearfix">
           <p class="text text-31">Dec 12 , 2013</p>
           <p class="text text-32">Charity Event For Military Held At Vista Motorcycle Service Center</p>
           <p class="text text-33">Building off of the momentum of past successful conferences, Golden Networking brings Cyber Security World Conference 2014 New York City, forum that will bring the latest thinking from security experts to hundreds of senior executives focused on protecting enterprises’ information assets.</p>
         </div>
-		<div class="container container-31 clearfix">
+        <div class="container container-31 clearfix">
           <p class="text text-31">Dec 12 , 2013</p>
           <p class="text text-32">Charity Event For Military Held At Vista Motorcycle Service Center</p>
           <p class="text text-33">Building off of the momentum of past successful conferences, Golden Networking brings Cyber Security World Conference 2014 New York City, forum that will bring the latest thinking from security experts to hundreds of senior executives focused on protecting enterprises’ information assets.</p>
         </div>
-		<div class="container container-31 clearfix">
+        <div class="container container-31 clearfix">
           <p class="text text-31">Dec 12 , 2013</p>
           <p class="text text-32">Charity Event For Military Held At Vista Motorcycle Service Center</p>
           <p class="text text-33">Building off of the momentum of past successful conferences, Golden Networking brings Cyber Security World Conference 2014 New York City, forum that will bring the latest thinking from security experts to hundreds of senior executives focused on protecting enterprises’ information assets.</p>
@@ -318,7 +331,7 @@ On the thin ice of modern life</p>
   -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="js/rimages.js"></script>
-  <script type="text/javascript" src="slick/slick.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
   <script type="text/javascript">
         $(document).ready(function(){
             $('.main_slide').slick({
@@ -327,7 +340,8 @@ On the thin ice of modern life</p>
                 lazyLoad: 'ondemand',
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                dots: true
+                dots: true,
+                onAfterChange: function () {hideAllVideo()}
             });
             
         });
@@ -358,14 +372,31 @@ On the thin ice of modern life</p>
         };
         // init news slide
         displayNews(news_index);
-        
-	      function hideAllVideo(){
-	      	var video1 = document.getElementById('video1');
-					video1.hidden = true;
-					var video2 = document.getElementById('video2');
-					video2.hidden = true;
-					
-	      }
+        function hideAllVideo(){
+            /*
+            var video1 = document.getElementById('video1');
+            video1.pause();
+            var video2 = document.getElementById('video2');
+            video2.pause();
+            */
+            var videos = document.getElementsByTagName('video');
+            for (var i = 0; i < videos.length; i++) {
+                videos[i].pause();
+            }
+        }
+        function displayVideo(playButtonId, videoId) {
+            var playButton = document.getElementById(playButtonId);
+            playButton.style.display='none';
+            var video=document.getElementById(videoId);
+            video.style.display='inline-block';
+            video.play();
+        }
+        function hideVideo(playButtonId, videoId) {
+            var video=document.getElementById(videoId);
+            //video.pause();
+            video.style.display='none';
+            document.getElementById(playButtonId).style.display='inline-block';
+        }
   </script>
 </body>
 </html>
