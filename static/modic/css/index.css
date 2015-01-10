@@ -90,9 +90,11 @@ body {
 .highlight,
 .store {
   width: 97.9166666666%;
-  min-width: 600px;
-  max-width: 940px;
+  min-width: 980px;
+  max-width: 980px;
   margin: 0 auto;
+  padding-left:10px;
+  padding-right:10px;
 }
 
 .store .container {
@@ -163,7 +165,7 @@ body {
 
 .container-1 {
   width: 100%;
-  min-width: 600px;
+  min-width: 960px;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -476,6 +478,8 @@ body {
   clear: both;
   z-index: 120;
   width: 100%;
+  min-width:980px;
+ 
   margin-top: 100px;
   padding-bottom: 50px;
   background-color: rgb(0, 0, 0);
@@ -483,18 +487,22 @@ body {
 
 .container-48 {
   width: 97.9166666666%;
-  min-width: 600px;
-  max-width: 940px;
+  min-width: 980px;
+  max-width: 980px;
   margin: 24px auto 0;
   padding-bottom: 14px;
+  padding-left:10px;
+  padding-right:10px;
   border-bottom: 5px solid rgb(0, 0, 0);
 }
 
 .container-49 {
   width: 97.9199609374%;
-  min-width: 600px;
+  min-width: 960px;
   max-width: 940px;
   margin: 9px auto 0;
+  padding-left:10px;
+  padding-right:10px;
 }
 
 .container-5 {
@@ -524,6 +532,7 @@ body {
   clear: both;
   z-index: 21;
   width: 100%;
+  
   margin-top: 80px;
 }
 
@@ -785,7 +794,7 @@ body {
 
 .text-48 {
   width: 97.9166666666%;
-  min-width: 600px;
+  min-width: 960px;
   max-width: 940px;
   margin: 26px auto 0;
   font-size: 0.75em;
