@@ -3,7 +3,7 @@ body {
   font: 400 0.75em/1.85 'Open Sans';
   color: rgb(0, 0, 0);
 }
-
+.container-frontpage-release-text p,
 .container-37 p,
 .container-38 p,
 .container-39 p,
@@ -935,4 +935,13 @@ body {
   font-size: 1.333em;
   font-weight: 400;
   color: rgb(0, 0, 0);
+}
+
+.image-frontpage-release-artwork{
+
+  height: 110px;
+  width: auto;    
+
+  margin: 13px auto 0;
+  overflow: hidden;
 }

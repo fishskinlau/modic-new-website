@@ -163,3 +163,10 @@
   line-height: 0.6;
   color: rgb(0, 157, 177);
 }
+
+._button-discography-cover img,
+._button_release_album img,
+._button_release_single img{
+width: 100%;
+  height: auto;
+}

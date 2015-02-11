@@ -149,7 +149,7 @@
       </div>
      
         <div class="container container-album clearfix">
-        <button onClick="window.location='https://itunes.apple.com/hk/album/hao-qing-ren-single/id916683084';" class="_button _button-discography-cover"><span><img src="images/releases/4-Di2da-good-lovercover.jpg"></span></button>
+        <button onClick="window.location='https://itunes.apple.com/hk/album/hao-qing-ren-single/id916683084';" class="_button _button-discography-cover"><span><img  src="images/releases/4-Di2da-good-lovercover.jpg" ></span></button>
         <div class="container container-discography clearfix">
           <p class="text text-discography-type">SINGLE</p>
           <p class="text text-discography-content">好情人<br><br>1. 好情人
