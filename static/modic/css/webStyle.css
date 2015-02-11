@@ -1,0 +1,165 @@
+
+/*menu related start*/
+
+.container-menu {
+  width: 100%;
+  min-width: 960px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.container-1 {
+  float: left;
+  z-index: 138;
+  width: 100%;
+  min-width: 600px;
+  max-width: 810px;
+  height: 55px;
+}
+
+
+.container-SNICON {
+  float: right;
+  clear: both;
+  z-index: 144;
+  width: 150px;
+  height: 50px;
+  margin: -40px 1.03516% 0 0;
+  overflow: visible;
+}
+
+.sn-icon-image {
+    float:left;
+  display: block;
+  height: 25px;
+    width: auto;
+}
+
+.sn-icon-image-2,
+.sn-icon-image-3 {
+  margin-left: 4%;
+}
+
+.sn-icon-image-4 {
+  margin-left: 4.66667%;
+}
+
+.sn-icon-image-5 {
+  margin-left: 3.96875%;
+}
+
+/*menu related end*/
+
+/*footer start*/
+.container-footer-quote{
+      float: right;
+  width: 140px;
+  height: 55px;
+  background: url('../images/modic-slogan.png') rgba(0, 157, 177, 0);
+  background-repeat: no-repeat;
+  background-size: 110.5px 9.5px;
+  background-position: right center;
+}
+
+
+
+.container-footer{
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 45;
+  width: 100%;
+  margin-top: 100px;
+  padding-bottom: 50px;
+  background-color: rgb(0, 0, 0);
+}
+
+.container-footer-info {
+  width: 97.9166666666%;
+  min-width: 600px;
+  max-width: 940px;
+  margin: 24px auto 0;
+  padding-bottom: 14px;
+  border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+.container-footer-contact {
+  width: 97.9199609374%;
+  min-width: 600px;
+  max-width: 940px;
+  margin: 9px auto 0;
+}
+
+
+.image-footer-modic-logo {
+  width: 77px;
+  margin-top: 12px;
+  overflow: hidden;
+}
+
+.image-footer-dk-logo {
+  width: 72px;
+  margin: 4px 0 0 48px;
+  overflow: visible;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.image-footer-yfcmd-logo {
+  width: 30px;
+  margin: 6px 0 0 3.03358%;
+  overflow: visible;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.image-footer-dk-logo:hover,
+.image-footer-yfcmd-logo:hover {
+  -webkit-transform: scale(1.1,1.1);
+  -moz-transform: scale(1.1,1.1);
+  -o-transform: scale(1.1,1.1);
+  -ms-transform: scale(1.1,1.1);
+  transform: scale(1.1,1.1);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.text-footer-tel-email {
+
+  float: left;
+  width: 125px;
+  height: auto;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: rgb(204, 204, 204);
+}
+
+
+.text-footer-address {
+  float: left;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 1.8;
+  color: rgb(204, 204, 204);
+    padding-top: 5px;
+}
+
+.text-footer-copyright {
+  width: 97.9166666666%;
+  min-width: 600px;
+  max-width: 940px;
+  margin: 26px auto 0;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 0.6;
+  color: rgb(0, 157, 177);
+}

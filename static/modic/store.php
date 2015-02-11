@@ -8,20 +8,14 @@
   <link rel="stylesheet" href="css/standardize.css">
   <link rel="stylesheet" href="css/store-grid.css">
   <link rel="stylesheet" href="css/store.css">
+    <link rel="stylesheet" href="css/webStyle.css"/>
+
 </head>
 <body class="body store clearfix">
   <div class="header clearfix">
-    <div class="container _container container-1 clearfix">
-      <div onClick="window.location='index.html';" class="container _container container-2 clearfix">
-        <button class="_button _button-1"><br></button>
-      </div>
-      <button onClick="window.location='about.html';" class="_button _button-2">About MODIC</button>
-      <button onClick="window.location='artists.html';" class="_button _button-3">Artists<br></button>
-      <button onClick="window.location='releases.html';" class="_button _button-4">Releases<br></button>
-      <button onClick="window.location='store.html';" class="_button _button-5">Store<br></button>
-      <button onClick="window.location='http://www.dancekingdom.hk';" class="_button _button-6">DANCE KINGDOM<br></button>
-      <button onClick="window.location='http://www.yfcmd.com';" class="_button _button-7">YFCMD<br></button>
-      <div class="container _element"></div>
+    <div class="container _container container-menu clearfix">
+                <?php include 'menu.php'; ?>
+
     </div>
   </div>
   <div class="container _container container-4 clearfix">

@@ -165,26 +165,22 @@ body {
   margin: 0 auto;
 }
 
-.container-37,
-.container-42,
-.container-47 {
+.container-release-album-full-block
+{
   width: 800px;
   margin: 0 auto;
   padding-top: 40px;
   padding-bottom: 40px;
   border-bottom: 1px dashed rgb(163, 163, 163);
 }
-
-.container-38,
-.container-43,
-.container-48 {
+.container-release-album-artwork
+{
   float: left;
   width: 207px;
 }
 
-.container-39,
-.container-44,
-.container-49 {
+.container-release-album-block
+{
   float: left;
   width: 562px;
   margin-left: 3.875%;
@@ -196,9 +192,8 @@ body {
   border-bottom: 1px solid rgb(0, 157, 177);
 }
 
-.container-40,
-.container-45,
-.container-50 {
+.container-release-album-info
+{
   float: left;
   width: 562px;
 }
@@ -345,7 +340,7 @@ body {
   color: rgb(0, 157, 177);
 }
 
-.text-24 {
+.text-release-album-title {
   position: relative;
   float: left;
   z-index: 77;
@@ -378,6 +373,7 @@ body {
   color: rgb(0, 157, 177);
 }
 
+.text-release-album-year,
 .text-25,
 .text-29,
 .text-33 {
@@ -387,7 +383,7 @@ body {
   text-align: right;
   color: rgb(0, 0, 0);
 }
-
+.text-release-album-artist,
 .text-26,
 .text-30,
 .text-34 {
@@ -398,7 +394,7 @@ body {
   line-height: 1.38;
   color: rgb(0, 0, 0);
 }
-
+.text-release-album-context,
 .text-27,
 .text-31,
 .text-35 {
@@ -472,24 +468,44 @@ body {
   -ms-transition: 0.3s,0.5s;
   transition: 0.3s,0.5s;
 }
-
-.container ._button-10,
-.container ._button-11,
-.container ._button-12,
-.container ._button-13,
-.container ._button-14,
-.container ._button-15,
-.container ._button-16,
-.container ._button-17,
-.container ._button-8,
-.container ._button-9 {
+.container ._button_release_single{
   width: 135px;
   height: 135px;
   margin-left: -0.08102%;
   border-radius: 3px;
-  background: url('../images/itunes-cd-04(2).jpg') rgb(222, 222, 222);
-  background-size: cover;
-  background-position: left top;
+
+  font-size: 1.143em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.container ._button_release_single:hover{
+ bottom: auto;
+  right: auto;
+  margin-right: 0;
+  box-shadow: 0 15px 11px rgba(0, 0, 0, .5);
+  -webkit-transform: translate(0px,-10px);
+  -moz-transform: translate(0px,-10px);
+  -o-transform: translate(0px,-10px);
+  -ms-transform: translate(0px,-10px);
+  transform: translate(0px,-10px);
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.container ._button_release_album{
+  width: 207px;
+  height: 207px;
+  border-radius: 3px;
+
   font-size: 1.143em;
   font-weight: 400;
   color: rgb(0, 0, 0);
@@ -519,34 +535,6 @@ body {
   transition: 0.5s;
 }
 
-.container ._button-10:hover,
-.container ._button-11:hover,
-.container ._button-12:hover,
-.container ._button-13:hover,
-.container ._button-14:hover,
-.container ._button-15:hover,
-.container ._button-16:hover,
-.container ._button-17:hover,
-.container ._button-18:hover,
-.container ._button-19:hover,
-.container ._button-20:hover,
-.container ._button-8:hover,
-.container ._button-9:hover {
-  bottom: auto;
-  right: auto;
-  margin-right: 0;
-  box-shadow: 0 15px 11px rgba(0, 0, 0, .5);
-  -webkit-transform: translate(0px,-10px);
-  -moz-transform: translate(0px,-10px);
-  -o-transform: translate(0px,-10px);
-  -ms-transform: translate(0px,-10px);
-  transform: translate(0px,-10px);
-  -webkit-transition: 0.2s;
-  -moz-transition: 0.2s;
-  -o-transition: 0.2s;
-  -ms-transition: 0.2s;
-  transition: 0.2s;
-}
 
 .container ._button-21 {
   width: 35px;

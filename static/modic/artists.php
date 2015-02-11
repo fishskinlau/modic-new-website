@@ -8,20 +8,14 @@
   <link rel="stylesheet" href="css/standardize.css">
   <link rel="stylesheet" href="css/artists-grid.css">
   <link rel="stylesheet" href="css/artists.css">
+    <link rel="stylesheet" href="css/webStyle.css"/>
+
 </head>
 <body class="body artists clearfix">
   <div class="header clearfix">
-    <div class="container _container container-1 clearfix">
-      <div onClick="window.location='index.html';" class="container _container container-2 clearfix">
-        <button class="_button _button-1"><br></button>
-      </div>
-      <button onClick="window.location='about.html';" class="_button _button-2">About MODIC</button>
-      <button onClick="window.location='artists.html';" class="_button _button-3">Artists<br></button>
-      <button onClick="window.location='releases.html';" class="_button _button-4">Releases<br></button>
-      <button onClick="window.location='store.html';" class="_button _button-5">Store<br></button>
-      <button onClick="window.location='http://www.dancekingdom.hk';" class="_button _button-6">DANCE KINGDOM<br></button>
-      <button onClick="window.location='http://www.yfcmd.com';" class="_button _button-7">YFCMD<br></button>
-      <div class="container _element"></div>
+    <div class="container _container container-menu clearfix">
+                 <?php include 'menu.php'; ?>
+
     </div>
   </div>
   <div class="container _container container-4 clearfix">
@@ -31,42 +25,42 @@
       </div>
       <div class="container _container container-6 clearfix">
         <div class="container _container container-7 clearfix">
-          <button onClick="window.location='artist-otto.html';" class="_button _button-8"><span>&nbsp;</span></button>
+          <button onClick="window.location='artist-otto.php';" class="_button _button-8"><span>&nbsp;</span></button>
           <p class="text text-2">OTTO<br>王志安</p>
         </div>
         <div class="container _container container-8 clearfix">
-          <button onClick="window.location='artist-cherry.html';" class="_button _button-9"><span>&nbsp;</span></button>
+          <button onClick="window.location='artist-cherry.php';" class="_button _button-9"><span>&nbsp;</span></button>
           <p class="text text-3">CHERRY<br>伍家怡</p>
         </div>
         <div class="container _container container-9 clearfix">
-          <button onClick="window.location='artist-rico.html';" class="_button _button-10"><span>&nbsp;</span></button>
+          <button onClick="window.location='artist-rico.php';" class="_button _button-10"><span>&nbsp;</span></button>
           <p class="text text-4">RICO<br>龍世傑</p>
         </div>
-        <div class="container _container container-10 clearfix">
-          <button onClick="window.location='artist-rainky.html';" class="_button _button-11"><span>&nbsp;</span></button>
+        <div class="container _container container-11 clearfix">
+          <button onClick="window.location='artist-rainky.php';" class="_button _button-11"><span>&nbsp;</span></button>
           <p class="text text-5">RAINKY <br>蔚雨芯</p>
         </div>
-        <div class="container _container container-11 clearfix">
-          <button onClick="window.location='artist-tat.html';" class="_button _button-12"><span>&nbsp;</span></button>
+        <div class="container _container container-10 clearfix">
+          <button onClick="window.location='artist-tat.php';" class="_button _button-12"><span>&nbsp;</span></button>
           <p class="text text-6">TAT&nbsp;<br>狄易達</p>
         </div>
         <div class="container _container container-12 clearfix">
-          <button onClick="window.location='artist-nicola.html';" class="_button _button-13"><span>&nbsp;</span></button>
+          <button onClick="window.location='artist-nicola.php';" class="_button _button-13"><span>&nbsp;</span></button>
           <p class="text text-7">NICOLA<br>曾詠欣</p>
         </div>
-        <div class="container _container container-13 clearfix">
-          <button onClick="window.location='artist-hyper.html';" class="_button _button-14"><span>&nbsp;</span></button>
+        <!--div class="container _container container-13 clearfix">
+          <button onClick="window.location='artist-hyper.php';" class="_button _button-14"><span>&nbsp;</span></button>
           <p class="text text-8">HYPER<br>羅家豪</p>
-        </div>
+        </div-->
         <div class="container _container container-14 clearfix">
-          <button onClick="window.location='artist-eddie.html';" class="_button _button-15"><span>&nbsp;</span></button>
+          <button onClick="window.location='artist-eddie.php';" class="_button _button-15"><span>&nbsp;</span></button>
           <p class="text text-9">EDDIE<br>彭懷安</p>
         </div>
       </div>
     </div>
   </div>
   <div class="container _container container-15 clearfix">
-    <img class="image image-1" src="images/IMG_1401-633x363.jpg" data-rimage data-src="images/IMG_1401-633x363.jpg" data-srcat2x="images/IMG_1401-633x363@2x.jpg">
+    <img class="image image-1" src="images/dancekingdom-all.jpg" data-rimage data-src="images/dancekingdom-all.jpg" data-srcat2x="images/dancekingdom-all@2x.jpg">
   </div>
   <div class="container _container container-16 clearfix">
     <div class="container _container container-17 clearfix">

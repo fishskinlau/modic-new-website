@@ -10,38 +10,49 @@
   <link rel="stylesheet" href="css/artist-tat.css">
   <!-- Slick slide -->
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
   <!-- fancy box -->
   <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/webStyle.css"/>
+
 </head>
 <body class="body artist-tat clearfix">
   <div class="header clearfix">
-    <div class="container container-1 clearfix">
-      <div onClick="window.location='index.html';" class="container container-2 clearfix">
-        <button class="_button _button-1"><br></button>
-      </div>
-      <button onClick="window.location='about.html';" class="_button _button-2">About MODIC</button>
-      <button onClick="window.location='artists.html';" class="_button _button-3">Artists<br></button>
-      <button onClick="window.location='releases.html';" class="_button _button-4">Releases<br></button>
-      <button onClick="window.location='store.html';" class="_button _button-5">Store<br></button>
-      <button onClick="window.location='http://www.dancekingdom.hk';" class="_button _button-6">DANCE KINGDOM<br></button>
-      <button onClick="window.location='http://www.yfcmd.com';" class="_button _button-7">YFCMD<br></button>
-      <div class="container _element"></div>
+    <div class="container container-menu clearfix">
+          <?php include 'menu.php'; ?>
+
     </div>
   </div>
   <div class="container container-4 clearfix">
     <div class="container container-5 clearfix">
       <div class="container container-6 clearfix">
-        <p class="text text-1">RAINKY </p>
-        <p class="text text-2">蔚雨芯</p>
+        <p class="text text-1">CHERRY </p>
+        <p class="text text-2">伍家怡</p>
       </div>
     </div>
-    <div class="container _element container-7" style="background-image: url('../source/modic/rainky/rainky-big.jpg');"></div>
+    <div class="container _element container-7" style="background-image: url('images/artists/cherry/cherry-big.jpg');"></div>
   </div>
   <div class="container container-8 clearfix">
     <div class="container container-9 clearfix">
       <div class="container container-10 clearfix">
-        <p class="text text-3">他自11歲開始學習Break Dance，至今已超過13個年頭。 由2008年6月正式出道，有樂壇B-boy之稱。 至今推出過三張個人唱片，《Just Go》，《The Second Step》及《Infinity》。歌曲《明日之謎》於香港電台中文歌曲龍虎榜、 新城勁爆流行榜及勁歌金榜取得冠軍，及於903專業推介得到亞軍， 成為其首支冠軍及三台冠軍歌。 除了大大小小音樂節目及音樂會，他的首個個人演唱會 《狄易達2013Revolution 演唱會》亦順利於北角新光戲院完成。 觀眾反應熱烈，全場氣氛高漲。今年十月再一次與楊詩敏（蝦頭） 合作舞台劇，繼《Jam歌有情人》後，加上師妹蔚雨芯的全新 舞台劇《Upcycle Me! 》。 他更於2009年成立名為《狄易達軍團》的舞蹈學校，公開招募成員，至今已為大大小小活動及節目擔任排舞及舞蹈藝員工作。能歌善舞的他，一向廣受客戶歡迎，獲邀出席各項活動，擔任表演嘉賓。 除了歌唱及跳舞，他主持的電視家居節目《安樂蝸》已超過100集， 他亦曾拍攝電視劇集《潛行狙擊》及電影《猛男滾死隊》。</p>
-        <img class="image" src="../source/modic/rainky/rainky-photos.jpg" style="width:463px;height:468" />
+        <p class="text text-3">
+2015年來臨，第一句要說的話？ Happy New Year!<br/><br/>
+
+去年最難忘一件事？ <br/>
+最難忘...好多呀，加入Modic啦，然後好多全新嘅工作機會啦，好似去澳洲做華姐司儀，識到好多新朋友，2014係豐盛嘅一年！<br/><br/>
+
+羊年喜氣洋洋，自創以「羊」字作概念的祝福語？ <br/>
+祝你「羊羊Modic」~ 因為"樣樣無敵"<br/><br/>
+
+入行經過？  <br/>
+過程有啲複雜喎，好多人以為我選美入行，其實唔係，選完美後我繼續學業，畢業出黎做司儀，然後受到老闆賞識加入公司。<br/><br/>
+
+用一種顏色形容自己？ <br/>
+白色，新人麻，白紙一張，有無限可能！<br/><br/>
+
+人生最需要的一種「養份」？<br/>
+Smile，可以更加靚，仲可以感染到身邊嘅人一齊變靚咖！</p>
+        <img class="image image-mosaic" src="images/artists/cherry/cherry-photos.jpg" />
         <!--div class="container container-11 clearfix">
           <img class="image image-1" src="images/Modic_profile_det_21102013-28-115x115.jpg" data-rimage data-src="images/Modic_profile_det_21102013-28-115x115.jpg" data-srcat2x="images/Modic_profile_det_21102013-28-115x115@2x.jpg">
           <img class="image image-2" src="images/Modic_profile_det_21102013-26-105x115.jpg" data-rimage data-src="images/Modic_profile_det_21102013-26-105x115.jpg" data-srcat2x="images/Modic_profile_det_21102013-26-105x115@2x.jpg">
@@ -54,7 +65,7 @@
         </div-->
       </div>
       <div class="container _element container-13">          
-      	<img class="image" style="width:463px;height:750px;" src="../source/modic/rainky/rainky-body.jpg">
+      	<img class="image image-artist-portrait-full" src="images/artists/cherry/cherry-body.jpg">
 </div>
     </div>
   </div>
@@ -143,64 +154,9 @@ Miss H.K（Feat. Gold Mountain）<br>2 . 逃避現實
       </div>
     </div>
   </div>
-  <div class="container container-25 clearfix">
-    <p class="text text-10">ARTISTS</p>
-    <div class="container container-26 clearfix">
-      <div class="container container-27 clearfix">
-        <button onClick="window.location='artist-otto.html';" class="_button _button-16"><span>&nbsp;</span></button>
-        <p class="text text-11">OTTO<br>王志安</p>
-      </div>
-      <div class="container container-28 clearfix">
-        <button onClick="window.location='artist-cherry.html';" class="_button _button-17"><span>&nbsp;</span></button>
-        <p class="text text-12">CHERRY<br>伍家怡</p>
-      </div>
-      <div class="container container-29 clearfix">
-        <button onClick="window.location='artist-rico.html';" class="_button _button-18"><span>&nbsp;</span></button>
-        <p class="text text-13">RICO<br>龍世傑</p>
-      </div>
-      <div class="container container-30 clearfix">
-        <button onClick="window.location='artist-rainky.html';" class="_button _button-19"><span>&nbsp;</span></button>
-        <p class="text text-14">RAINKY <br>蔚雨芯</p>
-      </div>
-      <div class="container container-31 clearfix">
-        <button onClick="window.location='artist-tat.html';" class="_button _button-20"><span>&nbsp;</span></button>
-        <p class="text text-15">TAT&nbsp;<br>狄易達</p>
-      </div>
-      <div class="container container-32 clearfix">
-        <button onClick="window.location='artist-nicola.html';" class="_button _button-21"><span>&nbsp;</span></button>
-        <p class="text text-16">NICOLA<br>曾詠欣</p>
-      </div>
-      <div class="container container-33 clearfix">
-        <button onClick="window.location='artist-hyper.html';" class="_button _button-22"><span>&nbsp;</span></button>
-        <p class="text text-17">HYPER<br>羅家豪</p>
-      </div>
-      <div class="container container-34 clearfix">
-        <button onClick="window.location='artist-eddie.html';" class="_button _button-23"><span>&nbsp;</span></button>
-        <p class="text text-18">EDDIE<br>彭懷安</p>
-      </div>
-    </div>
-  </div>
-  <div class="container container-35 clearfix">
-    <div class="container container-36 clearfix">
-      <img class="image image-7" src="images/modic-logo(3)-77x19-3.png" data-rimage data-src="images/modic-logo(3)-77x19-3.png" data-srcat2x="images/modic-logo(3)-77x19-3@2x.png">
-      <img class="image image-8" src="images/dk-logo-72x44-3.png" data-rimage data-src="images/dk-logo-72x44-3.png" data-srcat2x="images/dk-logo-72x44-3@2x.png">
-      <img class="image image-9" src="images/yfcmd-logo-30x39-3.png" data-rimage data-src="images/yfcmd-logo-30x39-3.png" data-srcat2x="images/yfcmd-logo-30x39-3@2x.png">
-    </div>
-    <div class="container container-37 clearfix">
-      <div class="text text-19">
-        <p>T &nbsp;3527 7000</p>
-        <p>F &nbsp;3521 1200	</p>
-        <p>E &nbsp;info@modic.hk</p>
-</div>
-      <p class="text text-20">Unit 208-210, Metro Centre Phase 1, 32 Lam Hing Street, Kowloon Bay, Hong Kong&nbsp;<br>香港九龍灣臨興街32號美羅中心一期208-210室</p>
-      <div class="container container-38 clearfix">
-        <button class="_button _button-24"><span>&nbsp;</span></button>
-        <button class="_button _button-25"><span>&nbsp;</span></button>
-        <button class="_button _button-26"><span>&nbsp;</span></button>
-      </div>
-    </div>
-    <div class="text text-21">© 2014 a Modic product. all rights reserved.</div>
-  </div>
+    <?php include 'artist-detail-list.php'; ?>    
+    <?php include 'footer.php'; ?>
+
 
   <!--
   <script src="js/jquery-min.js"></script>

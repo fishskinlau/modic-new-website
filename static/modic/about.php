@@ -8,20 +8,12 @@
   <link rel="stylesheet" href="css/standardize.css">
   <link rel="stylesheet" href="css/about-grid.css">
   <link rel="stylesheet" href="css/about.css">
+<link rel="stylesheet" href="css/webStyle.css"/>
 </head>
 <body class="body about clearfix">
   <div class="header clearfix">
-    <div class="container container-1 clearfix">
-      <div onClick="window.location='index.html';" class="container container-2 clearfix">
-        <button class="_button _button-1"><br></button>
-      </div>
-      <button onClick="window.location='about.html';" class="_button _button-2">About MODIC</button>
-      <button onClick="window.location='artists.html';" class="_button _button-3">Artists<br></button>
-      <button onClick="window.location='releases.html';" class="_button _button-4">Releases<br></button>
-      <button onClick="window.location='store.html';" class="_button _button-5">Store<br></button>
-      <button onClick="window.location='http://www.dancekingdom.hk';" class="_button _button-6">DANCE KINGDOM<br></button>
-      <button onClick="window.location='http://www.yfcmd.com';" class="_button _button-7">YFCMD<br></button>
-      <div class="container _element"></div>
+    <div class="container container-menu clearfix">
+           <?php include 'menu.php'; ?>
     </div>
   </div>
   <div class="container container-4 clearfix">
@@ -46,11 +38,13 @@ SEEMED SO VERY REAL,</p>
       <div class="container container-9 clearfix">
         <div class="container _element"></div>
         <div class="container container-11 clearfix">
-          <p class="text text-3">我們不相信金錢造勢，我們不依既定模式， 我們不願走固有道路，我們都不守規則。 與其廢話連篇，我們寧願選擇沉默。
-
-天空無限大，我們只相信誠意。 
-
-我們是一家初起步的娛樂公司，我們用誠意唱出每個音符，用誠意踢出每一球，用誠意舞出功架，用誠意走出每一步。</p>
+          <p class="text text-3">不相信金錢造勢，不願走固有道路。
+<br/>
+              <br/>用腳步踏出鼓動人心的舞蹈、用汗水踢出熱血的足球、用誠意唱出精彩人生。
+<br/>
+</br/>澳滌娛樂由來自香港及澳門的合伙人於二零一四年成立，籍此加強兩地文化交流，從而推動年輕新一代的演藝及創意發展和實踐。
+<br/>
+</br/>澳滌娛樂由藝人管理Modic、舞蹈學校Dance Kingdom及香港超級聯賽球隊YFC澳滌三個單元組成，以不一樣的格局形式和面貌，推廣屬於年輕人的新力量，以充滿朝氣和積極正面的態度譜出生動跳躍的年輕人未來。</p>
         </div>
         <p class="text text-4">TRY TO SEE IT MY WAY&nbsp;<br>ONLY TIME WILL TELL IF I AM RIGHT OR I AM WRONGWE CAN WORK IT OUT&nbsp;<br>WE CAN WORK IT OUT        </p>
       </div>

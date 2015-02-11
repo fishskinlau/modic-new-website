@@ -80,7 +80,7 @@ body {
 }
 
 .highlight ._button {
-  width: 117px;
+  width: 134.28571429px;
   height: 332px;
   border-bottom-right-radius: 3px;
   background-repeat: no-repeat;
@@ -118,45 +118,7 @@ body {
   margin: 0 auto;
 }
 
-.container-10 {
-  width: 12.5%;
-  height: 386px;
-  margin: -386px 0 0 37.55153%;
-  border-right: 1px solid rgb(255, 255, 255);
-  border-left: 1px solid rgb(255, 255, 255);
-}
 
-.container-11 {
-  width: 12.5%;
-  height: 386px;
-  margin: -386px 0 0 50%;
-  border-right: 1px solid rgb(255, 255, 255);
-  border-left: 1px solid rgb(255, 255, 255);
-}
-
-.container-12 {
-  width: 12.5%;
-  height: 386px;
-  margin: -386px 0 0 62.55153%;
-  border-right: 1px solid rgb(255, 255, 255);
-  border-left: 1px solid rgb(255, 255, 255);
-}
-
-.container-13 {
-  width: 12.5%;
-  height: 386px;
-  margin: -386px 0 0 75%;
-  border-right: 1px solid rgb(255, 255, 255);
-  border-left: 1px solid rgb(255, 255, 255);
-}
-
-.container-14 {
-  width: 12.5%;
-  height: 386px;
-  margin: -386px 0 0 87.44681%;
-  border-right: 1px solid rgb(255, 255, 255);
-  border-left: 1px solid rgb(255, 255, 255);
-}
 
 .container-15 {
   position: relative;
@@ -228,31 +190,73 @@ body {
 }
 
 .container-7 {
-  width: 12.5%;
+  width: 14.28571429%;
   height: 386px;
   border-right: 1px solid rgb(255, 255, 255);
   border-left: 1px solid rgb(255, 255, 255);
 }
 
 .container-8 {
-  width: 12.5%;
+  clear: both;
+
+  width: 14.28571429%;
   height: 386px;
-  margin-left: 0.05153%;
+   margin: -386px 0 0 14.28571429%;
+
   border-right: 1px solid rgb(255, 255, 255);
   border-left: 1px solid rgb(255, 255, 255);
 }
 
 .container-9 {
   clear: both;
-  width: 12.5%;
+  width: 14.28571429%;
   height: 386px;
-  margin: -386px 0 0 25%;
+  margin: -386px 0 0 28.57142857%;
   border-right: 1px solid rgb(255, 255, 255);
   border-left: 1px solid rgb(255, 255, 255);
 }
 
+.container-10 {
+  width: 14.28571429%;
+  height: 386px;
+  margin: -386px 0 0 42.85714286%;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+.container-11 {
+  width: 14.28571429%;
+  height: 386px;
+  margin: -386px 0 0 57.14285714%;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+.container-12 {
+  width: 14.28571429%;
+  height: 386px;
+  margin: -386px 0 0 71.42857143%;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+.container-13 {
+  width: 12.5%;
+  height: 386px;
+  margin: -386px 0 0 75%;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+}
+
+.container-14 {
+  width: 14.28571429%;
+  height: 386px;
+  margin: -386px 0 0 85.71428571%;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+}
 .image-1 {
-  width: 633px;
+  width: 940px;
   margin: 0 auto;
   overflow: hidden;
 }

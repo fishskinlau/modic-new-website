@@ -10,22 +10,15 @@
   <link rel="stylesheet" href="css/standardize.css">
   <link rel="stylesheet" href="css/index-grid.css">
   <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/webStyle.css"/>
+
   <!-- Slick slide -->
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 </head>
 <body class="body index clearfix">
   <div class="header clearfix">
-    <div class="container container-1 clearfix">
-      <div class="container container-2 clearfix">
-        <button class="_button _button-1"><br></button>
-      </div>
-      <button onClick="window.location='about.html';" class="_button _button-2">About MODIC</button>
-      <button onClick="window.location='artists.html';" class="_button _button-3">Artists<br></button>
-      <button onClick="window.location='releases.html';" class="_button _button-4">Releases<br></button>
-      <button onClick="window.location='store.html';" class="_button _button-5">Store<br></button>
-      <button onClick="window.location='http://www.dancekingdom.hk';" class="_button _button-6">DANCE KINGDOM<br></button>
-      <button onClick="window.location='http://www.yfcmd.com';" class="_button _button-7">YFCMD<br></button>
-      <div class="container _element"></div>
+    <div class="container container-menu clearfix">
+     <?php include 'menu.php'; ?>
     </div>
   </div>
   <div class="main_slide container container-4 clearfix">
@@ -35,7 +28,7 @@
             <!--align helper -->
             <span style="height:100%;display:inline-block;vertical-align:middle;"></span>
             <a href="javascript:" style="color: rgba(0, 0, 0, 0.0);"><img id="playButton1" src="images/play_button.png" style="width: 50px; height:50px; margin: auto; display:inline-block; vertical-align: middle;" onclick="displayVideo('playButton1', 'video1')"/></a>
-                <video id="video1" loop style="width:auto;height:550px; display:inline-block; vertical-align: middle;" onclick="this.pause();" onpause="hideVideo('playButton1', 'video1')" >
+                <video id="video1" loop style="width:auto;height:550px; display:none; vertical-align: middle;" onclick="this.pause();" onpause="hideVideo('playButton1', 'video1')" >
                   <source src="gizmo.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                 </video>

@@ -12,36 +12,30 @@
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
   <!-- fancy box -->
   <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/webStyle.css"/>
+
 </head>
 <body class="body artist-tat clearfix">
   <div class="header clearfix">
-    <div class="container container-1 clearfix">
-      <div onClick="window.location='index.html';" class="container container-2 clearfix">
-        <button class="_button _button-1"><br></button>
-      </div>
-      <button onClick="window.location='about.html';" class="_button _button-2">About MODIC</button>
-      <button onClick="window.location='artists.html';" class="_button _button-3">Artists<br></button>
-      <button onClick="window.location='releases.html';" class="_button _button-4">Releases<br></button>
-      <button onClick="window.location='store.html';" class="_button _button-5">Store<br></button>
-      <button onClick="window.location='http://www.dancekingdom.hk';" class="_button _button-6">DANCE KINGDOM<br></button>
-      <button onClick="window.location='http://www.yfcmd.com';" class="_button _button-7">YFCMD<br></button>
-      <div class="container _element"></div>
+    <div class="container container-menu clearfix">
+           <?php include 'menu.php'; ?>
+
     </div>
   </div>
   <div class="container container-4 clearfix">
     <div class="container container-5 clearfix">
       <div class="container container-6 clearfix">
-        <p class="text text-1">NICOLA </p>
-        <p class="text text-2">曾詠欣</p>
+        <p class="text text-1">HYPER </p>
+        <p class="text text-2">羅家豪</p>
       </div>
     </div>
-    <div class="container _element container-7" style="background-image: url('../source/modic/nicola/nicola-big.jpg');"></div>
+    <div class="container _element container-7" style="background-image: url('images/artists/HYPER/hyper-big.jpg');"></div>
   </div>
   <div class="container container-8 clearfix">
     <div class="container container-9 clearfix">
       <div class="container container-10 clearfix">
         <p class="text text-3">他自11歲開始學習Break Dance，至今已超過13個年頭。 由2008年6月正式出道，有樂壇B-boy之稱。 至今推出過三張個人唱片，《Just Go》，《The Second Step》及《Infinity》。歌曲《明日之謎》於香港電台中文歌曲龍虎榜、 新城勁爆流行榜及勁歌金榜取得冠軍，及於903專業推介得到亞軍， 成為其首支冠軍及三台冠軍歌。 除了大大小小音樂節目及音樂會，他的首個個人演唱會 《狄易達2013Revolution 演唱會》亦順利於北角新光戲院完成。 觀眾反應熱烈，全場氣氛高漲。今年十月再一次與楊詩敏（蝦頭） 合作舞台劇，繼《Jam歌有情人》後，加上師妹蔚雨芯的全新 舞台劇《Upcycle Me! 》。 他更於2009年成立名為《狄易達軍團》的舞蹈學校，公開招募成員，至今已為大大小小活動及節目擔任排舞及舞蹈藝員工作。能歌善舞的他，一向廣受客戶歡迎，獲邀出席各項活動，擔任表演嘉賓。 除了歌唱及跳舞，他主持的電視家居節目《安樂蝸》已超過100集， 他亦曾拍攝電視劇集《潛行狙擊》及電影《猛男滾死隊》。</p>
-        <img class="image" src="../source/modic/nicola/nicola-photos.jpg" style="width:463px;height:468" />
+        <img class="image image-mosaic" src="images/artists/HYPER/hyper-photos.jpg" />
         <!--div class="container container-11 clearfix">
           <img class="image image-1" src="images/Modic_profile_det_21102013-28-115x115.jpg" data-rimage data-src="images/Modic_profile_det_21102013-28-115x115.jpg" data-srcat2x="images/Modic_profile_det_21102013-28-115x115@2x.jpg">
           <img class="image image-2" src="images/Modic_profile_det_21102013-26-105x115.jpg" data-rimage data-src="images/Modic_profile_det_21102013-26-105x115.jpg" data-srcat2x="images/Modic_profile_det_21102013-26-105x115@2x.jpg">
@@ -54,7 +48,7 @@
         </div-->
       </div>
       <div class="container _element container-13">          
-      	<img class="image" style="width:463px;height:750px;" src="../source/modic/nicola/nicola-body.jpg">
+      	<img class="image image-artist-portrait-full" src="images/artists/HYPER/hyper-body.jpg">
 </div>
     </div>
   </div>
