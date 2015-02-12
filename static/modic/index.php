@@ -33,10 +33,11 @@
             <!--align helper -->
             <span style="height:100%;display:inline-block;vertical-align:middle;"></span>
             <a href="javascript:" style="color: rgba(0, 0, 0, 0.0);"><img id="playButton1" src="images/play_button.png" style="width: 50px; height:50px; margin: auto; display:inline-block; vertical-align: middle;" onclick="displayVideo('playButton1', 'video1')"/></a>
-                <video id="video1" loop style="width:auto;height:550px; display:none; vertical-align: middle;" onclick="this.pause();" onpause="hideVideo('playButton1', 'video1')" >
+                <!--video id="video1" loop style="width:auto;height:550px; display:none; vertical-align: middle;" onclick="this.pause();" onpause="hideVideo('playButton1', 'video1')" >
                   <source src="gizmo.mp4" type="video/mp4">
                   Your browser does not support the video tag.
-                </video>
+                </video-->
+            <iframe id="video1" allowfullscreen="" src="//www.youtube.com/embed/mjfsuHXCiyw?amp;controls=0&amp;loop=1&amp;playlist=mjfsuHXCiyw" style="width:960px;height:550px; display:none; vertical-align: middle;" ></iframe>
             
         </div>
         <div class="container container-5 clearfix">
@@ -105,7 +106,7 @@
    
   </div-->
   <div class="container container-32 clearfix">
-    <div class="container _element container-33"></div>
+    <div class="container _element container-33" style="background: url('images/modic-index-background.jpg');"></div>
     <div class="container container-34 clearfix">
       <p class="text text-34">If you should go skating
 On the thin ice of modern life</p>
@@ -187,7 +188,8 @@ On the thin ice of modern life</p>
 			
 			facebook: {
 				id: '157969574262873,Facebook Timeline/376995711728',
-                comments:	 0
+                comments:	 0,
+                out:	'intro,thumb,title,text,user,share'
 			}
 		},
 		rotate: {

@@ -12,6 +12,7 @@
     color: #444;
     list-style: none outside none;
     margin: 0;
+    padding-top: 20px;
 }
 .dcsns h1 {
     width: auto;
@@ -407,7 +408,7 @@
 	border: 1px solid #ddd;
 	padding: 1px;
 	background: #fff;
-	max-width: 280px;
+	max-width: 270px;
 }
 .stream li.dcsns-facebook .section-text a {
 	margin-right: 4px;
