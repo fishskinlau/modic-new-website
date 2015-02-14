@@ -47,6 +47,20 @@
   margin-left: 3.96875%;
 }
 
+
+.sn-icon-image:hover{
+  -webkit-transform: translateY(-12px);
+  -moz-transform: translateY(-12px);
+  -o-transform: translateY(-12px);
+  -ms-transform: translateY(-12px);
+  transform: translateY(-12px);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
 /*menu related end*/
 
 /*footer start*/
@@ -105,6 +119,12 @@
   -o-transition: 0.3s;
   -ms-transition: 0.3s;
   transition: 0.3s;
+}
+
+.image-footer {
+display: block;
+float: left;
+height: auto;
 }
 
 .image-footer-yfcmd-logo {
@@ -169,4 +189,91 @@
 ._button_release_single img{
 width: 100%;
   height: auto;
+}
+
+
+.container ._button-menu-modic-logo {
+  width: 90px;
+  padding-left: 1px;
+  background-image: url('../images/modic-logo(2).png');
+  background-repeat: no-repeat;
+  background-size: 77px auto;
+  background-position: left center;
+  font-size: 1.333em;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+
+.container ._button-menu-modic-logo:hover {
+  -webkit-transform: translate(20px,0px);
+  -moz-transform: translate(20px,0px);
+  -o-transform: translate(20px,0px);
+  -ms-transform: translate(20px,0px);
+  transform: translate(20px,0px);
+  -webkit-transition: 0.3s,0.5s;
+  -moz-transition: 0.3s,0.5s;
+  -o-transition: 0.3s,0.5s;
+  -ms-transition: 0.3s,0.5s;
+  transition: 0.3s,0.5s;
+}
+
+
+
+
+.container ._button-menu-item{
+  padding-right: 16px;
+  padding-left: 9px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.7);
+  white-space: normal;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.container ._button-menu-item:hover
+{
+  bottom: auto;
+  right: auto;
+  width: auto;
+  margin-right: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-right-style: none;
+  border-left-style: none;
+  background-color: rgb(0, 157, 177);
+  text-shadow: 0 0 5px rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  letter-spacing: 2px;
+  word-spacing: 0;
+  color: rgb(255, 255, 255);
+  -webkit-transition: 0.5;
+  -moz-transition: 0.5;
+  -o-transition: 0.5;
+  -ms-transition: 0.5;
+  transition: 0.5;
+}
+
+
+._button_menu_basic {
+  height: 55px;
+  background-color: rgb(0, 157, 177);
+
+  display: block;
+  float: left;
+  line-height: 1.38;
+  text-align: center;
+  font-family: 'Open Sans';
 }

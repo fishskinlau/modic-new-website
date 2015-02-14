@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0">
+    <meta name="viewport" content="width=980px,min-scale=1.0">
   <title>MODIC</title>
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400,300" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/standardize.css">

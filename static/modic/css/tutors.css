@@ -1,0 +1,307 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font: 400 0.75em/1.6 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.image {
+  display: block;
+  float: left;
+  width: 92px;
+  height: auto;
+  margin: 96px 0 0 17.14286%;
+  overflow: hidden;
+}
+
+._button {
+  display: block;
+  float: left;
+  font-size: 1.333em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+}
+
+._button:hover {
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  -ms-transition: 0.2s;
+  transition: 0.2s;
+}
+
+._element {
+  float: left;
+}
+
+.container ._element {
+  height: 460px;
+  background-repeat: no-repeat;
+}
+
+.container-tutor-1 {
+  position: relative;
+  z-index: 0;
+  width: 100%;
+  height: 500px;
+  background-image: url('../images/beyonce-dancing(3).jpg');
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  box-shadow: 0 -4px 7px 2px rgba(0, 0, 0, .5) inset;
+}
+
+.container-12 {
+  width: 300px;
+  margin-left: 18px;
+  background-image: url('../images/IMG_0345(4).jpg');
+  background-size: 900px auto;
+  background-position: 52% 18%;
+}
+
+.container-13 {
+  width: 220px;
+  margin-left: 20px;
+  background-image: url('../images/IMG_1929(4).jpg');
+  background-size: 350px auto;
+  background-position: 47% 40%;
+}
+
+.container-15 {
+  width: 300px;
+  background-image: url('../images/IMG_0345(2).jpg');
+  background-size: 900px auto;
+  background-position: 52% 18%;
+}
+
+.container-16 {
+  width: 220px;
+  margin-left: 20px;
+  background-image: url('../images/IMG_1929(2).jpg');
+  background-size: 350px auto;
+  background-position: 47% 40%;
+}
+
+.container-17,
+.container-9 {
+  float: left;
+  width: 40.5319148936%;
+  margin-left: 2.02128%;
+}
+
+.container-10,
+.container-14,
+.container-18,
+.container-6 {
+  width: 940px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px dashed rgb(0, 157, 177);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.container-11,
+.container-19 {
+  float: left;
+  width: 40.5319148936%;
+}
+/*
+.container-2 {
+  position: absolute;
+  top: 0;
+  left: 7.4055989583%;
+  z-index: 27;
+  width: 140px;
+  height: 180px;
+  background-color: #009db1;
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.66);
+}*/
+.container-2 {
+  float: left;
+  width: 150px;
+  margin-left: 10px;
+}
+
+.container-20 {
+  width: 300px;
+  margin-left: 18px;
+  background-image: url('../images/IMG_0345(3).jpg');
+  background-size: 900px auto;
+  background-position: 52% 18%;
+}
+
+.container-21 {
+  width: 220px;
+  margin-left: 20px;
+  background-image: url('../images/IMG_1929(3).jpg');
+  background-size: 350px auto;
+  background-position: 47% 40%;
+}
+
+.container-22 {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 31;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, .5);
+  overflow: hidden;
+}
+
+.container-3 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 34;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.container-4 {
+  width: 940px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(0, 157, 177);
+}
+
+.container-5 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 25;
+  width: 100%;
+  margin-top: 81px;
+  padding-bottom: 120px;
+}
+
+.container-7 {
+  width: 300px;
+  background-image: url('../images/IMG_0345(5).jpg');
+  background-size: 900px auto;
+  background-position: 52% 18%;
+}
+
+.container-8 {
+  width: 220px;
+  margin-left: 20px;
+  background-image: url('../images/IMG_1929(5).jpg');
+  background-size: 350px auto;
+  background-position: 47% 40%;
+}
+
+.text-1 {
+  min-height: 20px;
+  margin: 0 auto;
+  font: 300 5.333em/1.38 'Open Sans';
+  text-align: center;
+  color: rgb(0, 157, 177);
+}
+
+.text-10 {
+  float: right;
+  margin: 9px 30px 0 0;
+  font-size: 0.75em;
+  font-weight: 400;
+  line-height: 1.38;
+  text-align: right;
+  color: rgb(1, 131, 147);
+}
+
+.text-2,
+.text-4,
+.text-6,
+.text-8 {
+  float: left;
+  width: 99.6884735202%;
+  margin-left: 0.09248%;
+  font-size: 1.417em;
+  font-weight: 400;
+  line-height: 1.38;
+  color: rgb(0, 157, 177);
+}
+
+.text-3,
+.text-5,
+.text-7,
+.text-9 {
+  float: left;
+  clear: both;
+  width: 93.7694704049%;
+  margin-top: 15px;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: justify;
+  color: rgb(0, 0, 0);
+}
+
+.container ._button-1 {
+  width: 172px;
+  height: 31px;
+  margin: 5px 0 0 -52px;
+  background: url('../images/home(2).jpg') rgb(255, 255, 255);
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-position: left center;
+}
+
+.container ._button-1:hover {
+  -webkit-transform: translateX(50px);
+  -moz-transform: translateX(50px);
+  -o-transform: translateX(50px);
+  -ms-transform: translateX(50px);
+  transform: translateX(50px);
+}
+
+.container ._button-2 {
+  width: 83px;
+  height: 21px;
+  margin: 11px 0 0 67px;
+  background: url('../images/modic-logo.jpg') rgba(222, 222, 222, 0);
+  background-repeat: no-repeat;
+  background-size: 83px 20.5px;
+  background-position: left top;
+}
+
+.container ._button-2:hover {
+  -webkit-transform: scale(1.2,1.2);
+  -moz-transform: scale(1.2,1.2);
+  -o-transform: scale(1.2,1.2);
+  -ms-transform: scale(1.2,1.2);
+  transform: scale(1.2,1.2);
+}
+
+
+
+
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 126;
+  width: 100%;
+  height: 55px;
+  margin: 0 auto;
+  background-color: #009db1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+}
+
+.header:hover {
+  box-shadow: 0 0 3px rgba(0, 0, 0, .5);
+}
+
+.header .container-menu-basic {
+  height: 55px;
+}

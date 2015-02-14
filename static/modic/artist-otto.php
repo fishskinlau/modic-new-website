@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0">
+    <meta name="viewport" content="width=980px,min-scale=1.0">
   <title>MODIC</title>
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400,300,700" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/standardize.css">
@@ -113,7 +114,7 @@
       <button id="next_button" class="_button _button-13">&gt;</button>
     </div>
   </div>
-  <div class="container container-18 clearfix">
+  <!--div class="container container-18 clearfix">
     <div class="container container-19 clearfix">
       <p class="text text-5">MUSIC / DISCOGRAPHY</p>
     </div>
@@ -143,7 +144,7 @@ Miss H.K（Feat. Gold Mountain）<br>2 . 逃避現實
         </div>
       </div>
     </div>
-  </div>
+  </div-->
     <?php include 'artist-detail-list.php'; ?>    
     <?php include 'footer.php'; ?>
 

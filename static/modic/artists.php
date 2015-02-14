@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1.0">
+    <meta name="viewport" content="width=980px,min-scale=1.0">
   <title>MODIC</title>
   <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,400,300" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/standardize.css">
@@ -60,29 +61,12 @@
     </div>
   </div>
   <div class="container _container container-15 clearfix">
+      <a href="tutors.php">
     <img class="image image-1" src="images/dancekingdom-all.jpg" data-rimage data-src="images/dancekingdom-all.jpg" data-srcat2x="images/dancekingdom-all@2x.jpg">
+          </a>
   </div>
-  <div class="container _container container-16 clearfix">
-    <div class="container _container container-17 clearfix">
-      <img class="image image-2" src="images/modic-logo(3)-77x19-2.png" data-rimage data-src="images/modic-logo(3)-77x19-2.png" data-srcat2x="images/modic-logo(3)-77x19-2@2x.png">
-      <img class="image image-3" src="images/dk-logo-72x44-2.png" data-rimage data-src="images/dk-logo-72x44-2.png" data-srcat2x="images/dk-logo-72x44-2@2x.png">
-      <img class="image image-4" src="images/yfcmd-logo-30x39-2.png" data-rimage data-src="images/yfcmd-logo-30x39-2.png" data-srcat2x="images/yfcmd-logo-30x39-2@2x.png">
-    </div>
-    <div class="container _container container-18 clearfix">
-      <div class="text text-10">
-        <p>T &nbsp;3527 7000</p>
-        <p>F &nbsp;3521 1200	</p>
-        <p>E &nbsp;info@modic.hk</p>
-</div>
-      <p class="text text-11">Unit 208-210, Metro Centre Phase 1, 32 Lam Hing Street, Kowloon Bay, Hong Kong&nbsp;<br>香港九龍灣臨興街32號美羅中心一期208-210室</p>
-      <div class="container _container container-19 clearfix">
-        <button class="_button _button-16"><span>&nbsp;</span></button>
-        <button class="_button _button-17"><span>&nbsp;</span></button>
-        <button class="_button _button-18"><span>&nbsp;</span></button>
-      </div>
-    </div>
-    <div class="text text-12">© 2014 a Modic product. all rights reserved.</div>
-  </div>
+        <?php include 'footer.php'; ?>
+
 
   <script src="js/jquery-min.js"></script>
   <script src="js/rimages.js"></script>

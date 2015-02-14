@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0">
+    <meta name="viewport" content="width=980px,min-scale=1.0">
+  <title>DANCE KINGDOM</title>
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/standardize.css">
+  <link rel="stylesheet" href="css/tutors-grid.css">
+  <link rel="stylesheet" href="css/tutors.css">
+  <link rel="stylesheet" href="css/webStyle.css">
+
+</head>
+<body class="body tutors clearfix">
+  <div class="header clearfix">
+    <div class="container container-menu clearfix">
+          <?php include 'menu.php'; ?>
+
+    </div>
+  </div>
+  <div class="container _element container-tutor-1"></div>
+    
+  <!--div class="container container-2 clearfix">
+    <img class="image" src="images/dk-logo.png">
+  </div-->
+  <div class="container container-3 clearfix">
+    <div class="container container-4 clearfix">
+      <p class="text text-1">TUTORS</p>
+    </div>
+  </div>
+  <div class="container container-5 clearfix">
+    <div class="container container-6 clearfix">
+      <div class="container _element container-7"><img src="images/dancekingdom/kinko/kinko-big.jpg" style="width:300px;height:460px"></div>
+      <div class="container _element container-8"><img src="images/dancekingdom/kinko/kinko-body.jpg" style="width:220px;height:460px"></div>
+      <div class="container container-9 clearfix">
+        <p class="text text-2">KINKO
+ 古志鍵</p>
+        <p class="text text-3">証書：
+香港教練培訓委員會&nbsp;Level 1 Sports-general Theory中國香港競技體操教練一級証書編排及任教：多間中學Da Factory Dance Floor多個不同的機構社區中心表演經驗包括：2013古巨基AMAZING WOLD世界巡迴演唱會(廣州站)狂舞派狄易達演唱會2012古巨基AMAZING WOLD世界巡迴演唱會(澳門站)可口可樂125周年音樂會(上海)雪碧榜頒獎典禮(廣洲)郭富城舞臨宴世界巡迴演唱會(香港站)古巨基AMAZING WOLD世界巡迴演唱會(香港站)G.A.P HONH LONG OPENING2010國際七人欖球表演嘉賓比賽經驗包括：WORLD DANCE COLOSSEUM (日本)SOGO Hip Hop 舞王激鬥大賽 冠軍拉闊Teen空青少年舞出真我跳舞比賽 冠軍全港HIPHOP舞蹈邀請賽 季軍中國香港體育協會奧林匹克委員會比賽男子公開組單人(冠軍)廣告包括：2012
+TVB情越海岸線(電視劇)2011 TVB潛行追繫(電視劇)2011 TVB潛行追繫(電視劇)2009
+何韻詩(大紅袍)MV
+狄易達(霹靂干戈)MV
+狄易達Just Go MTV狄易達Just Go TVB MTV &nbsp;</p>
+      </div>
+    </div>
+    
+    
+    
+    <div class="container container-10 clearfix">
+      <div class="container container-11 clearfix">
+        <p class="text text-4">KINKO
+ 古志鍵</p>
+        <p class="text text-5">証書：
+香港教練培訓委員會&nbsp;Level 1 Sports-general Theory中國香港競技體操教練一級証書編排及任教：多間中學Da Factory Dance Floor多個不同的機構社區中心表演經驗包括：2013古巨基AMAZING WOLD世界巡迴演唱會(廣州站)狂舞派狄易達演唱會2012古巨基AMAZING WOLD世界巡迴演唱會(澳門站)可口可樂125周年音樂會(上海)雪碧榜頒獎典禮(廣洲)郭富城舞臨宴世界巡迴演唱會(香港站)古巨基AMAZING WOLD世界巡迴演唱會(香港站)G.A.P HONH LONG OPENING2010國際七人欖球表演嘉賓比賽經驗包括：WORLD DANCE COLOSSEUM (日本)SOGO Hip Hop 舞王激鬥大賽 冠軍拉闊Teen空青少年舞出真我跳舞比賽 冠軍全港HIPHOP舞蹈邀請賽 季軍中國香港體育協會奧林匹克委員會比賽男子公開組單人(冠軍)廣告包括：2012
+TVB情越海岸線(電視劇)2011 TVB潛行追繫(電視劇)2011 TVB潛行追繫(電視劇)2009
+何韻詩(大紅袍)MV
+狄易達(霹靂干戈)MV
+狄易達Just Go MTV狄易達Just Go TVB MTV &nbsp;</p>
+      </div>
+      <div class="container _element container-12"><img src="images/dancekingdom/chung/chung-big.jpg" style="width:300px;height:460px"></div>
+      <div class="container _element container-13"><img src="images/dancekingdom/chung/chung-body.jpg" style="width:220px;height:460px"></div>
+    </div>
+    
+    
+    <div class="container container-6 clearfix">
+      <div class="container _element container-7"><img src="images/dancekingdom/chutin/chutin-big.jpg" style="width:300px;height:460px"></div>
+      <div class="container _element container-8"><img src="images/dancekingdom/chutin/chutin-body.jpg" style="width:220px;height:460px"></div>
+      <div class="container container-9 clearfix">
+        <p class="text text-2">KINKO
+ 古志鍵</p>
+        <p class="text text-3">証書：
+香港教練培訓委員會&nbsp;Level 1 Sports-general Theory中國香港競技體操教練一級証書編排及任教：多間中學Da Factory Dance Floor多個不同的機構社區中心表演經驗包括：2013古巨基AMAZING WOLD世界巡迴演唱會(廣州站)狂舞派狄易達演唱會2012古巨基AMAZING WOLD世界巡迴演唱會(澳門站)可口可樂125周年音樂會(上海)雪碧榜頒獎典禮(廣洲)郭富城舞臨宴世界巡迴演唱會(香港站)古巨基AMAZING WOLD世界巡迴演唱會(香港站)G.A.P HONH LONG OPENING2010國際七人欖球表演嘉賓比賽經驗包括：WORLD DANCE COLOSSEUM (日本)SOGO Hip Hop 舞王激鬥大賽 冠軍拉闊Teen空青少年舞出真我跳舞比賽 冠軍全港HIPHOP舞蹈邀請賽 季軍中國香港體育協會奧林匹克委員會比賽男子公開組單人(冠軍)廣告包括：2012
+TVB情越海岸線(電視劇)2011 TVB潛行追繫(電視劇)2011 TVB潛行追繫(電視劇)2009
+何韻詩(大紅袍)MV
+狄易達(霹靂干戈)MV
+狄易達Just Go MTV狄易達Just Go TVB MTV &nbsp;</p>
+      </div>
+    </div>
+    
+    
+    
+    <div class="container container-10 clearfix">
+      <div class="container container-11 clearfix">
+        <p class="text text-4">KINKO
+ 古志鍵</p>
+        <p class="text text-5">証書：
+香港教練培訓委員會&nbsp;Level 1 Sports-general Theory中國香港競技體操教練一級証書編排及任教：多間中學Da Factory Dance Floor多個不同的機構社區中心表演經驗包括：2013古巨基AMAZING WOLD世界巡迴演唱會(廣州站)狂舞派狄易達演唱會2012古巨基AMAZING WOLD世界巡迴演唱會(澳門站)可口可樂125周年音樂會(上海)雪碧榜頒獎典禮(廣洲)郭富城舞臨宴世界巡迴演唱會(香港站)古巨基AMAZING WOLD世界巡迴演唱會(香港站)G.A.P HONH LONG OPENING2010國際七人欖球表演嘉賓比賽經驗包括：WORLD DANCE COLOSSEUM (日本)SOGO Hip Hop 舞王激鬥大賽 冠軍拉闊Teen空青少年舞出真我跳舞比賽 冠軍全港HIPHOP舞蹈邀請賽 季軍中國香港體育協會奧林匹克委員會比賽男子公開組單人(冠軍)廣告包括：2012
+TVB情越海岸線(電視劇)2011 TVB潛行追繫(電視劇)2011 TVB潛行追繫(電視劇)2009
+何韻詩(大紅袍)MV
+狄易達(霹靂干戈)MV
+狄易達Just Go MTV狄易達Just Go TVB MTV &nbsp;</p>
+      </div>
+      <div class="container _element container-12"><img src="images/dancekingdom/daisy/daisy-big.jpg" style="width:300px;height:460px"></div>
+      <div class="container _element container-13"><img src="images/dancekingdom/daisy/daisy-body.jpg" style="width:220px;height:460px"></div>
+    </div>
+    
+    
+    
+    
+    
+    <div class="container container-6 clearfix">
+      <div class="container _element container-7"><img src="images/dancekingdom/lokman/lokman-big.jpg" style="width:300px;height:460px"></div>
+      <div class="container _element container-8"><img src="images/dancekingdom/lokman/lokman-body.jpg" style="width:220px;height:460px"></div>
+      <div class="container container-9 clearfix">
+        <p class="text text-2">KINKO
+ 古志鍵</p>
+        <p class="text text-3">証書：
+香港教練培訓委員會&nbsp;Level 1 Sports-general Theory中國香港競技體操教練一級証書編排及任教：多間中學Da Factory Dance Floor多個不同的機構社區中心表演經驗包括：2013古巨基AMAZING WOLD世界巡迴演唱會(廣州站)狂舞派狄易達演唱會2012古巨基AMAZING WOLD世界巡迴演唱會(澳門站)可口可樂125周年音樂會(上海)雪碧榜頒獎典禮(廣洲)郭富城舞臨宴世界巡迴演唱會(香港站)古巨基AMAZING WOLD世界巡迴演唱會(香港站)G.A.P HONH LONG OPENING2010國際七人欖球表演嘉賓比賽經驗包括：WORLD DANCE COLOSSEUM (日本)SOGO Hip Hop 舞王激鬥大賽 冠軍拉闊Teen空青少年舞出真我跳舞比賽 冠軍全港HIPHOP舞蹈邀請賽 季軍中國香港體育協會奧林匹克委員會比賽男子公開組單人(冠軍)廣告包括：2012
+TVB情越海岸線(電視劇)2011 TVB潛行追繫(電視劇)2011 TVB潛行追繫(電視劇)2009
+何韻詩(大紅袍)MV
+狄易達(霹靂干戈)MV
+狄易達Just Go MTV狄易達Just Go TVB MTV &nbsp;</p>
+      </div>
+    </div>
+    
+    
+    
+    <div class="container container-10 clearfix">
+      <div class="container container-11 clearfix">
+        <p class="text text-4">KINKO
+ 古志鍵</p>
+        <p class="text text-5">証書：
+香港教練培訓委員會&nbsp;Level 1 Sports-general Theory中國香港競技體操教練一級証書編排及任教：多間中學Da Factory Dance Floor多個不同的機構社區中心表演經驗包括：2013古巨基AMAZING WOLD世界巡迴演唱會(廣州站)狂舞派狄易達演唱會2012古巨基AMAZING WOLD世界巡迴演唱會(澳門站)可口可樂125周年音樂會(上海)雪碧榜頒獎典禮(廣洲)郭富城舞臨宴世界巡迴演唱會(香港站)古巨基AMAZING WOLD世界巡迴演唱會(香港站)G.A.P HONH LONG OPENING2010國際七人欖球表演嘉賓比賽經驗包括：WORLD DANCE COLOSSEUM (日本)SOGO Hip Hop 舞王激鬥大賽 冠軍拉闊Teen空青少年舞出真我跳舞比賽 冠軍全港HIPHOP舞蹈邀請賽 季軍中國香港體育協會奧林匹克委員會比賽男子公開組單人(冠軍)廣告包括：2012
+TVB情越海岸線(電視劇)2011 TVB潛行追繫(電視劇)2011 TVB潛行追繫(電視劇)2009
+何韻詩(大紅袍)MV
+狄易達(霹靂干戈)MV
+狄易達Just Go MTV狄易達Just Go TVB MTV &nbsp;</p>
+      </div>
+      <div class="container _element container-12"><img src="images/dancekingdom/moon/moon-big.jpg" style="width:300px;height:460px"></div>
+      <div class="container _element container-13"><img src="images/dancekingdom/moon/moon-body.jpg" style="width:220px;height:460px"></div>
+    </div>
+    
+    
+    
+    <div class="container container-6 clearfix">
+      <div class="container _element container-7"><img src="images/dancekingdom/tasha/tasha-big.jpg" style="width:300px;height:460px"></div>
+      <div class="container _element container-8"><img src="images/dancekingdom/tasha/tasha-body.jpg" style="width:220px;height:460px"></div>
+      <div class="container container-9 clearfix">
+        <p class="text text-2">KINKO
+ 古志鍵</p>
+        <p class="text text-3">証書：
+香港教練培訓委員會&nbsp;Level 1 Sports-general Theory中國香港競技體操教練一級証書編排及任教：多間中學Da Factory Dance Floor多個不同的機構社區中心表演經驗包括：2013古巨基AMAZING WOLD世界巡迴演唱會(廣州站)狂舞派狄易達演唱會2012古巨基AMAZING WOLD世界巡迴演唱會(澳門站)可口可樂125周年音樂會(上海)雪碧榜頒獎典禮(廣洲)郭富城舞臨宴世界巡迴演唱會(香港站)古巨基AMAZING WOLD世界巡迴演唱會(香港站)G.A.P HONH LONG OPENING2010國際七人欖球表演嘉賓比賽經驗包括：WORLD DANCE COLOSSEUM (日本)SOGO Hip Hop 舞王激鬥大賽 冠軍拉闊Teen空青少年舞出真我跳舞比賽 冠軍全港HIPHOP舞蹈邀請賽 季軍中國香港體育協會奧林匹克委員會比賽男子公開組單人(冠軍)廣告包括：2012
+TVB情越海岸線(電視劇)2011 TVB潛行追繫(電視劇)2011 TVB潛行追繫(電視劇)2009
+何韻詩(大紅袍)MV
+狄易達(霹靂干戈)MV
+狄易達Just Go MTV狄易達Just Go TVB MTV &nbsp;</p>
+      </div>
+    </div>
+    
+    
+    
+    <div class="container container-10 clearfix">
+      <div class="container container-11 clearfix">
+        <p class="text text-4">KINKO
+ 古志鍵</p>
+        <p class="text text-5">証書：
+香港教練培訓委員會&nbsp;Level 1 Sports-general Theory中國香港競技體操教練一級証書編排及任教：多間中學Da Factory Dance Floor多個不同的機構社區中心表演經驗包括：2013古巨基AMAZING WOLD世界巡迴演唱會(廣州站)狂舞派狄易達演唱會2012古巨基AMAZING WOLD世界巡迴演唱會(澳門站)可口可樂125周年音樂會(上海)雪碧榜頒獎典禮(廣洲)郭富城舞臨宴世界巡迴演唱會(香港站)古巨基AMAZING WOLD世界巡迴演唱會(香港站)G.A.P HONH LONG OPENING2010國際七人欖球表演嘉賓比賽經驗包括：WORLD DANCE COLOSSEUM (日本)SOGO Hip Hop 舞王激鬥大賽 冠軍拉闊Teen空青少年舞出真我跳舞比賽 冠軍全港HIPHOP舞蹈邀請賽 季軍中國香港體育協會奧林匹克委員會比賽男子公開組單人(冠軍)廣告包括：2012
+TVB情越海岸線(電視劇)2011 TVB潛行追繫(電視劇)2011 TVB潛行追繫(電視劇)2009
+何韻詩(大紅袍)MV
+狄易達(霹靂干戈)MV
+狄易達Just Go MTV狄易達Just Go TVB MTV &nbsp;</p>
+      </div>
+      <div class="container _element container-12"><img src="images/dancekingdom/timothy/timothy-big.jpg" style="width:300px;height:460px"></div>
+      <div class="container _element container-13"><img src="images/dancekingdom/timothy/timothy-body.jpg" style="width:220px;height:460px"></div>
+    </div>
+     
+    <div class="container container-6 clearfix">
+      <div class="container _element container-7"><img src="images/dancekingdom/yanki/yanki-big.jpg" style="width:300px;height:460px"></div>
+      <div class="container _element container-8"><img src="images/dancekingdom/yanki/yanki-body.jpg" style="width:220px;height:460px"></div>
+      <div class="container container-9 clearfix">
+        <p class="text text-2">KINKO
+ 古志鍵</p>
+        <p class="text text-3">証書：
+香港教練培訓委員會&nbsp;Level 1 Sports-general Theory中國香港競技體操教練一級証書編排及任教：多間中學Da Factory Dance Floor多個不同的機構社區中心表演經驗包括：2013古巨基AMAZING WOLD世界巡迴演唱會(廣州站)狂舞派狄易達演唱會2012古巨基AMAZING WOLD世界巡迴演唱會(澳門站)可口可樂125周年音樂會(上海)雪碧榜頒獎典禮(廣洲)郭富城舞臨宴世界巡迴演唱會(香港站)古巨基AMAZING WOLD世界巡迴演唱會(香港站)G.A.P HONH LONG OPENING2010國際七人欖球表演嘉賓比賽經驗包括：WORLD DANCE COLOSSEUM (日本)SOGO Hip Hop 舞王激鬥大賽 冠軍拉闊Teen空青少年舞出真我跳舞比賽 冠軍全港HIPHOP舞蹈邀請賽 季軍中國香港體育協會奧林匹克委員會比賽男子公開組單人(冠軍)廣告包括：2012
+TVB情越海岸線(電視劇)2011 TVB潛行追繫(電視劇)2011 TVB潛行追繫(電視劇)2009
+何韻詩(大紅袍)MV
+狄易達(霹靂干戈)MV
+狄易達Just Go MTV狄易達Just Go TVB MTV &nbsp;</p>
+      </div>
+    </div>
+    
+    
+    
+  </div>
+  <!--div class="container container-22 clearfix">
+    <button onClick="window.location='index.html';" class="_button _button-1"></button>
+    <button onClick="window.location='http://www.modic.com.hk';" class="_button _button-2"><span>&nbsp;</span></button>
+    <p class="text text-10">TEL : 6010 0005 / 5299 1182<br>Unit 208-210, Metro Centre Phase 1,<br>32 Lam Hing Street, Kowloon Bay, Hong Kong<br><br>© 2014 a Modic product. all rights reserved.</p>
+  </div-->
+        <?php include 'footer.php'; ?>
+
+</body>
+</html>
+
+
+
