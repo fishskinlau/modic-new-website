@@ -32,12 +32,12 @@
         <div style="width: 100%; height:550px;text-align:center">
             <!--align helper -->
             <span style="height:100%;display:inline-block;vertical-align:middle;"></span>
-            <a href="javascript:" style="color: rgba(0, 0, 0, 0.0);"><img id="playButton1" src="images/play_button.png" style="width: 50px; height:50px; margin: auto; display:inline-block; vertical-align: middle;" onclick="displayVideo('playButton1', 'video1')"/></a>
+            <a href="javascript:" style="color: rgba(0, 0, 0, 0.0);"><img id="playButton1" name="playButton" src="images/play_button.png" style="width: 50px; height:50px; margin: auto; display:inline-block; vertical-align: middle;" onclick="displayYoutube('playButton1', 'video1', 'mjfsuHXCiyw')"/></a>
                 <!--video id="video1" loop style="width:auto;height:550px; display:none; vertical-align: middle;" onclick="this.pause();" onpause="hideVideo('playButton1', 'video1')" >
                   <source src="gizmo.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                 </video-->
-            <iframe id="video1" allowfullscreen="" src="//www.youtube.com/embed/mjfsuHXCiyw?amp;controls=0&amp;loop=1&amp;playlist=mjfsuHXCiyw" style="width:960px;height:550px; display:none; vertical-align: middle;" ></iframe>
+            <iframe id="video1" allowfullscreen="" src="" style="width:960px;height:550px; display:none; vertical-align: middle;" ></iframe>
             
         </div>
         <div class="container container-5 clearfix">
@@ -49,7 +49,7 @@
         <div style="width: 100%; height:550px;text-align:center">
             <!--align helper -->
             <span style="height:100%;display:inline-block;vertical-align:middle;"></span>
-            <a href="javascript:" style="color: rgba(0, 0, 0, 0.0);"><img id="playButton2" src="images/play_button.png" style="width: 50px; height:50px; margin: auto; display:inline-block; vertical-align: middle;" onclick="displayVideo('playButton2', 'video2')"/></a>
+            <a href="javascript:" style="color: rgba(0, 0, 0, 0.0);"><img id="playButton2" name="playButton" src="images/play_button.png" style="width: 50px; height:50px; margin: auto; display:inline-block; vertical-align: middle;" onclick="displayVideo('playButton2', 'video2')"/></a>
                 <video id="video2" loop style="width:auto;height:550px; display:none; vertical-align: middle;" onclick="this.pause();" onpause="hideVideo('playButton2', 'video2')" >
                   <source src="Game_of_Thrones_opening.mp4" type="video/mp4">
                   Your browser does not support the video tag.
@@ -247,6 +247,14 @@ On the thin ice of modern life</p>
             for (var i = 0; i < videos.length; i++) {
                 videos[i].pause();
             }
+			var iframes = document.getElementsByTagName('iframe');
+			for (var i = 0; i < iframes.length; i++) {
+                iframes[i].src="";
+            }
+			var playButtons = document.getElementsByName('playButton');
+			for (var i = 0; i < playButtons.length; i++) {
+                playButtons[i].style.display='inline-block';
+            }
         }
         function displayVideo(playButtonId, videoId) {
             var playButton = document.getElementById(playButtonId);
@@ -259,6 +267,20 @@ On the thin ice of modern life</p>
             var video=document.getElementById(videoId);
             //video.pause();
             video.style.display='none';
+            document.getElementById(playButtonId).style.display='inline-block';
+        }
+        function displayYoutube(playButtonId, iFrameId, yid) {
+			var playButton = document.getElementById(playButtonId);
+            playButton.style.display='none';
+            var iframe=document.getElementById(iFrameId);
+			iframe.src = '//www.youtube.com/embed/' + yid + '?autoplay=1&controls=0&loop=1&playlist=' + yid;
+			iframe.style.display='inline-block';
+			
+        }
+		function hideYoutube(playButtonId, iFrameId) {
+            var iframe=document.getElementById(iFrameId);
+            iframe.src = ""
+            iframe.style.display='none';
             document.getElementById(playButtonId).style.display='inline-block';
         }
       
