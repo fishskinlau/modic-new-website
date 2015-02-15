@@ -187,7 +187,8 @@ On the thin ice of modern life</p>
 		feeds: {
 			
 			facebook: {
-				id: '157969574262873,Facebook Timeline/376995711728',
+				id: '144049709026195',
+				url: 'facebook.php',
                 comments:	 0,
                 out:	'intro,thumb,title,text,user,share'
 			}

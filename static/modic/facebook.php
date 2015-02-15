@@ -2,8 +2,8 @@
 ob_start();
 
 // SET YOUR FACEBOOK API DETAILS HERE
-$app_id 	= 'ENTER YOUR APP ID';
-$app_secret = 'ENTER YOUR APP SECRET';
+$app_id 	= '910743075691045';
+$app_secret = 'cc6d52180f0a8785b361c5f1f522c6cb';
 
 // DO NOT EDIT BELOW THIS LINE
 error_reporting(E_ALL ^ E_NOTICE);
