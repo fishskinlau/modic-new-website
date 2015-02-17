@@ -73,35 +73,11 @@
             </a>
           </div>
           <div>
-            <a class="fancybox-media" href="//www.youtube.com/watch?v=KFoScn7GyJI">
-              <button class="_button _button-video" style="background: url('//img.youtube.com/vi/KFoScn7GyJI/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
+            <a class="fancybox-media" href="//www.youtube.com/watch?v=ywDU-2j2NPE">
+              <button class="_button _button-video" style="background: url('//img.youtube.com/vi/ywDU-2j2NPE/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
             </a>
           </div>
-          <div>
-            <a class="fancybox-media" href="//www.youtube.com/watch?v=jA9Nnw7sAgs">
-              <button class="_button _button-video" style="background: url('//img.youtube.com/vi/jA9Nnw7sAgs/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
-            </a>
-          </div>
-          <div>
-            <a class="fancybox-media" href="//www.youtube.com/watch?v=S4SOqKuQUFk">
-              <button class="_button _button-video" style="background: url('//img.youtube.com/vi/S4SOqKuQUFk/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
-            </a>
-          </div>
-          <div>
-            <a class="fancybox-media" href="//www.youtube.com/watch?v=CdTGTyAWbqY">
-              <button class="_button _button-video" style="background: url('//img.youtube.com/vi/CdTGTyAWbqY/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
-            </a>
-          </div>
-          <div>
-            <a class="fancybox-media" href="//www.youtube.com/watch?v=nDKYuY7zOZ4">
-              <button class="_button _button-video" style="background: url('//img.youtube.com/vi/nDKYuY7zOZ4/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
-            </a>
-          </div>
-          <div>
-            <a class="fancybox-media" href="//www.youtube.com/watch?v=_dkfnGgKlEU">
-              <button class="_button _button-video" style="background: url('//img.youtube.com/vi/_dkfnGgKlEU/mqdefault.jpg') rgb(222, 222, 222);background-size: cover;"><span>&nbsp;</span></button>
-            </a>
-          </div>
+          
         </div>
 		<!--
         <button class="_button _button-video"><span>&nbsp;</span></button>

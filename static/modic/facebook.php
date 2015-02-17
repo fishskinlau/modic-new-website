@@ -1,9 +1,12 @@
 <?php
 ob_start();
 
+date_default_timezone_set('UTC');
+
+
 // SET YOUR FACEBOOK API DETAILS HERE
-$app_id 	= '910743075691045';
-$app_secret = 'cc6d52180f0a8785b361c5f1f522c6cb';
+$app_id 	= '659182040871101';
+$app_secret = 'f58ad3100dffb13f415a36377da53b51';
 
 // DO NOT EDIT BELOW THIS LINE
 error_reporting(E_ALL ^ E_NOTICE);

@@ -97,6 +97,9 @@ body {
   transition: 0.5s;
 }
 
+.container img:hover,
+.container img:focus,
+
 .highlight ._button:hover {
   box-shadow: 0 19px 18px rgba(0, 0, 0, .5);
   -webkit-transform: translateY(-17px);
@@ -125,7 +128,7 @@ body {
   float: left;
   clear: both;
   z-index: 28;
-  width: 100%;
+  width: 940px;
   margin-top: 60px;
 }
 
@@ -255,6 +258,22 @@ body {
   border-right: 1px solid rgb(255, 255, 255);
   border-left: 1px solid rgb(255, 255, 255);
 }
+
+.container-tutor-name {
+  width: 11.111111%;
+  height: 80px;
+  border-right: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid rgb(255, 255, 255);
+    float: left;
+}
+.text-tutor-name{
+  float: left;
+  clear: both;
+  width: 104.4px;
+  margin: 10px 0 0 -0.39232%;
+  font-size: 1em;
+}
+
 .image-1 {
   width: 940px;
   margin: 0 auto;
@@ -346,7 +365,7 @@ body {
 .text-8 {
   float: left;
   clear: both;
-  width: 117px;
+  width: 134px;
   margin-top: 10px;
   font-size: 1em;
 }
@@ -357,11 +376,18 @@ body {
 .text-9 {
   float: left;
   clear: both;
-  width: 117px;
+  width: 134px;
   margin: 10px 0 0 -0.39232%;
   font-size: 1em;
 }
 
+.dk-tutor-name{
+  float: left;
+  clear: both;
+  width: 104px;
+  margin: 10px 0 0 -0.39232%;
+  font-size: 1em;
+}
 .container ._button-1 {
   width: 90px;
   padding-left: 1px;
@@ -419,6 +445,7 @@ body {
   background-image: url('../images/IMG_0014.jpg');
 }
 
+.container ._image-1:hover,
 .container ._button-10:hover,
 .container ._button-11:hover,
 .container ._button-12:hover,

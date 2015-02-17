@@ -32,7 +32,7 @@
         <div style="width: 100%; height:550px;text-align:center">
             <!--align helper -->
             <span style="height:100%;display:inline-block;vertical-align:middle;"></span>
-            <a href="javascript:" style="color: rgba(0, 0, 0, 0.0);"><img id="playButton1" name="playButton" src="images/play_button.png" style="width: 50px; height:50px; margin: auto; display:inline-block; vertical-align: middle;" onclick="displayYoutube('playButton1', 'video1', 'mjfsuHXCiyw')"/></a>
+            <a href="javascript:" style="color: rgba(0, 0, 0, 0.0);"><img id="playButton1" name="playButton" src="images/play_button.png" style="width: 50px; height:50px; margin: auto; display:inline-block; vertical-align: middle;" onclick="displayYoutube('playButton1', 'video1', 'izBoODmWtMg')"/></a>
                 <!--video id="video1" loop style="width:auto;height:550px; display:none; vertical-align: middle;" onclick="this.pause();" onpause="hideVideo('playButton1', 'video1')" >
                   <source src="gizmo.mp4" type="video/mp4">
                   Your browser does not support the video tag.
@@ -41,13 +41,11 @@
             
         </div>
         <div class="container container-5 clearfix">
-            <p class="text text-1">BEYOURSELF, NO MATTER WHAT THEY SAY.</p>
+            <p class="text text-1">TOGETHER WE STAND, DIVIDED WE FALL</p>
         </div>
     </div>
-    <div class="main" style="background-image:url('./images/news/top-2-still.jpg');">
-        <!-- use oncanplay to solve chrome autoplay problem -->
+    <!--div class="main" style="background-image:url('./images/news/top-2-still.jpg');">
         <div style="width: 100%; height:550px;text-align:center">
-            <!--align helper -->
             <span style="height:100%;display:inline-block;vertical-align:middle;"></span>
             <a href="javascript:" style="color: rgba(0, 0, 0, 0.0);"><img id="playButton2" name="playButton" src="images/play_button.png" style="width: 50px; height:50px; margin: auto; display:inline-block; vertical-align: middle;" onclick="displayVideo('playButton2', 'video2')"/></a>
                 <video id="video2" loop style="width:auto;height:550px; display:none; vertical-align: middle;" onclick="this.pause();" onpause="hideVideo('playButton2', 'video2')" >
@@ -59,7 +57,7 @@
         <div class="container container-5 clearfix">
             <p class="text text-1">BEYOURSELF, NO MATTER WHAT THEY SAY.</p>
         </div>
-    </div>
+    </div-->
     
     <!--
     <div class="container container-6 clearfix">
@@ -71,22 +69,22 @@
   <div class="container container-7 clearfix">
     <div class="highlight clearfix">
       <div class="container container-8 clearfix">
-        <p class="text text-3">HEADLINES</p>
+        <p class="text text-3">NEWS</p>
       </div>
       <div class="container container-9 clearfix">
         <div class="container _element container-10" style="background-image: url('./images/news/headline1.jpg');"></div>
         <div class="container container-11 clearfix">
-          <p class="text text-4">聖誕唔愁冇節目　跟狄易達、蔚雨芯海邊嘆大餐</p>
-          <p class="text text-5">Dec 22, 2014</p>
+          <p class="text text-4">狄易達 x GoPro自家製<br/>第一視感《一凍一熱》Lyrics MV</p>
+          <!--p class="text text-5">Dec 22, 2014</p-->
           <p class="text text-6">狄易達加盟新公司Modic後，於2015年再拾起勁舞鞋，推出全新派台作品《一凍一熱》，歌曲找來著名音樂人Edward Chan及T-Ma監製與作曲，由鬼才填詞人陳詠謙譜上歌詞，在音樂上，這也是達仔首次嘗試的Funky曲風，配以現場演出時的火熱舞步，期望在這個寒冷的冬天裡帶給大家開心熱鬧的節日氣氛。</p>
         </div>
       </div>
       <div class="container container-12 clearfix">
         <div class="container _element container-13" style="background-image: url('./images/news/headline2.jpg');"></div>
         <div class="container container-14 clearfix">
-          <p class="text text-7">倫永亮龍世傑互笠高帽</p>
-          <p class="text text-8">Dec 22, 2014</p>
-          <p class="text text-9">彭懷安（Eddie）、蔚雨芯（Rainky）、朱慧敏及Dance Kingdom成員古志鍵、楊樂文、王顯聰、丁可欣、羅伊婷、施朗然與江宏基，早前齊與又名「雅蘭易達十六世」的狄易達現身由雅蘭床褥有份投資的電影《浮華宴》首映禮，先睹為快。</p>
+          <p class="text text-7">Modic仝人祝願：大家羊年行大運！</p>
+          <!--p class="text text-8">Dec 22, 2014</p-->
+          <p class="text text-9">農曆新年又到了!今年是羊年，澳滌娛樂Modic仝人祝願大家身體健康、快快樂樂，要邊「羊」得邊「羊」! 新一年記得繼續緊貼我們Modic的資訊，我們務必為你們帶來更精彩的演出、音樂及數不盡的多元化娛樂! </p>
         </div>
       </div>
     </div>
@@ -106,10 +104,11 @@
    
   </div-->
   <div class="container container-32 clearfix">
-    <div class="container _element container-33" style="background: url('images/modic-index-background.jpg');"></div>
+    <div class="container _element container-33" style="background: url('images/bg/background1.jpg');background-attachment:fixed;background-size: 100% auto;background-position: center top;">
+      <img id="imgbg1" src="./images/bg/background1-mobile.jpg" style="height:550px;width:auto;display:none;"/>
+      </div>
     <div class="container container-34 clearfix">
-      <p class="text text-34">If you should go skating
-On the thin ice of modern life</p>
+      <p class="text text-34">BE YOURSELF, NO MATTER WHAT THEY SAY</p>
     </div>
   </div>
   <div class="container container-35 clearfix">
@@ -118,40 +117,40 @@ On the thin ice of modern life</p>
         <p class="text text-35">RELEASES</p>
       </div>
       <div class="container container-37 clearfix">
-        <img class="image-frontpage-release-artwork" src="images/releases/1-Di2da-Just_Go-cover.jpg">
+        <img class="image-frontpage-release-artwork" src="images/releases/5-Di2da-one-cold-one-hot.jpg" onClick="window.location='https://itunes.apple.com/hk/album/yi-dong-yi-re-single/id959845318';">
         <div class="text text-36">
           <p>狄易達</p>
-          <p>Just Go</p>
+          <p>一凍一熱</p>
 </div>
       </div>
       <div class="container container-38 clearfix">
-        <img class="image-frontpage-release-artwork" src="images/releases/2-Di2da-The_Second_Step-cover.jpg">
+        <img class="image-frontpage-release-artwork" src="images/releases/1-rico-existence-cdcover.jpg"  onClick="window.location='https://itunes.apple.com/hk/album/cun-zai-gan-single/id938003948';">
         <div class="text text-37">
-          <p>狄易達</p>
-          <p>The Second Step</p>
+          <p>龍世傑</p>
+          <p>存在感</p>
 </div>
       </div>
       <div class="container container-39 clearfix">
-        <img class="image-frontpage-release-artwork" src="images/releases/3-Di2da-Infinity-cover.jpg">
+        <img class="image-frontpage-release-artwork" src="images/releases/4-Di2da-good-lovercover.jpg"  onClick="window.location='https://itunes.apple.com/hk/album/hao-qing-ren-single/id916683084';">
         <div class="text text-38">
           <p>狄易達</p>
-          <p>Infinity</p>
+          <p>好情人</p>
 </div>
       </div>
       <div class="container container-40 clearfix">
-        <img class="image-frontpage-release-artwork" src="images/releases/1-Rainky-Raining-cdcover.jpg">
+        <img class="image-frontpage-release-artwork" src="images/releases/3-Rainky-toy-cover.jpg" onClick="window.location='https://itunes.apple.com/hk/album/wan-ju-single/id914085000';" >
         <div class="text text-39">
           <p>蔚雨芯</p>
-          <p>Raining</p>
+          <p>玩具</p>
 </div>
       </div>
-      <div class="container container-41 clearfix">
+      <!--div class="container container-41 clearfix">
         <img class="image-frontpage-release-artwork" src="images/releases/2-Rainky-clone-cdcover.jpg">
         <div class="text text-40">
           <p>蔚雨芯</p>
           <p>複製人</p>
 </div>
-      </div>
+      </div-->
       
     </div>
   </div>
@@ -172,6 +171,11 @@ On the thin ice of modern life</p>
 
     
   <script type="text/javascript">
+      
+      if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+          var imgbg1 = document.getElementById("imgbg1");
+          imgbg1.style.display = "";
+      };
         $(document).ready(function(){
             $('.main_slide').slick({
                 infinite: true,
@@ -187,10 +191,10 @@ On the thin ice of modern life</p>
 		feeds: {
 			
 			facebook: {
-				id: '144049709026195',
+				id: '283526628524933, Facebook Timeline/283526628524933, Rainky/95072483859851, di2da/304264657663 , Rico/223759697818584 , Dance Kingdom/100008364948649 ',
 				url: 'facebook.php',
                 comments:	 0,
-                out:	'intro,thumb,title,text,user,share'
+                out:	'intro,thumb,title,text,user'
 			}
 		},
 		rotate: {

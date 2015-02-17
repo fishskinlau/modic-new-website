@@ -43,7 +43,7 @@
         </div>
         <div class="container _container container-10 clearfix">
           <button onClick="window.location='artist-tat.php';" class="_button _button-12"><span>&nbsp;</span></button>
-          <p class="text text-6">TAT&nbsp;<br>狄易達</p>
+          <p class="text text-6">DI2DA&nbsp;<br>狄易達</p>
         </div>
         <div class="container _container container-12 clearfix">
           <button onClick="window.location='artist-nicola.php';" class="_button _button-13"><span>&nbsp;</span></button>
@@ -58,13 +58,48 @@
           <p class="text text-9">EDDIE<br>彭懷安</p>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="container _container container-15 clearfix">
-      <a href="tutors.php">
-    <img class="image image-1" src="images/dancekingdom-all.jpg" data-rimage data-src="images/dancekingdom-all.jpg" data-srcat2x="images/dancekingdom-all@2x.jpg">
+        
+        
+        
+        
+        <div class="container _container container-15 clearfix">
+        <a href="tutors.php">
+            <img class="image image-1" src="images/dancekingdom-all.jpg" data-rimage data-src="images/dancekingdom-all.jpg" data-srcat2x="images/dancekingdom-all@2x.jpg">
           </a>
+            <div class="container-tutor-name" >          
+                <p class="text text-tutor-name">Moon<br/>施朗然</p>
+            </div>
+            <div class="container-tutor-name" >          
+                <p class="text text-tutor-name">Daisy<br/>羅伊婷</p>
+            </div>
+            <div class="container-tutor-name" >          
+                <p class="text text-tutor-name">Timothy<br/>江宏基</p>
+            </div>
+            <div class="container-tutor-name" >          
+                <p class="text text-tutor-name">Justin<br/>朱天奇</p>
+            </div>
+            <div class="container-tutor-name" >          
+                <p class="text text-tutor-name">Kinko<br/>古志鍵</p>
+            </div>
+            <div class="container-tutor-name" >          
+                <p class="text text-tutor-name">Chung<br/>王顯聰</p>
+            </div>
+            <div class="container-tutor-name" >          
+                <p class="text text-tutor-name">Lokman<br/>楊樂文</p>
+            </div>
+            <div class="container-tutor-name" >          
+                <p class="text text-tutor-name">Tasha Lyia<br/>黃莉雅</p>
+            </div>
+            <div class="container-tutor-name" >          
+                <p class="text text-tutor-name">Yanki<br/>丁可欣</p>
+            </div>
+        </div>
+        
+    </div>
+      
   </div>
+  
+  
         <?php include 'footer.php'; ?>
 
 

@@ -31,17 +31,17 @@
     <div class="container _container container-8 clearfix">
       <div class="container _container container-9 clearfix">
         <div class="container _container container-10 clearfix">
-          <button onClick="" class="_button _button_release_single"><span><img src="images/releases/1-Rainky-Raining-cdcover.jpg"/></span></button>
+          <button onClick="window.location='https://itunes.apple.com/hk/album/yi-dong-yi-re-single/id959845318';" class="_button _button_release_single"><span><img src="images/releases/5-Di2da-one-cold-one-hot.jpg"/></span></button>
           <div class="container _container container-11 clearfix">
-            <p class="text text-3">複製人</p>
-            <p class="text text-4">蔚雨芯</p>
+            <p class="text text-3">一凍一熱</p>
+            <p class="text text-4">狄易達</p>
           </div>
         </div>
         <div class="container _container container-12 clearfix">
-          <button onClick="" class="_button _button_release_single"><span><img src="images/releases/2-Rainky-clone-cdcover.jpg"/></span></button>
+          <button onClick="window.location='https://itunes.apple.com/hk/album/cun-zai-gan-single/id938003948';" class="_button _button_release_single"><span><img src="images/releases/1-rico-existence-cdcover.jpg"/></span></button>
           <div class="container _container container-13 clearfix">
-            <p class="text text-5">玩具</p>
-            <p class="text text-6">蔚雨芯</p>
+            <p class="text text-5">存在感</p>
+            <p class="text text-6">龍世傑</p>
           </div>
         </div>
         <div class="container _container container-14 clearfix">
@@ -52,15 +52,15 @@
           </div>
         </div>
         <div class="container _container container-16 clearfix">
-          <button onClick="window.location='https://itunes.apple.com/hk/album/yi-dong-yi-re-single/id959845318';" class="_button _button_release_single"><span><img src="images/releases/5-Di2da-one-cold-one-hot.jpg"/></span></button>
+          <button onClick="window.location='https://itunes.apple.com/hk/album/wan-ju-single/id914085000';" class="_button _button_release_single"><span><img src="images/releases/3-Rainky-toy-cover.jpg"/></span></button>
           <div class="container _container container-17 clearfix">
-            <p class="text text-9">一冷一熱</p>
-            <p class="text text-10">狄易達</p>
+            <p class="text text-9">玩具</p>
+            <p class="text text-10">蔚雨芯</p>
           </div>
         </div>
       </div>
     </div>
-    <div class="container _container container-18 clearfix">
+    <!--div class="container _container container-18 clearfix">
       <div class="container _container container-19 clearfix">
         <div class="container _container container-20 clearfix">
           <button onClick="" class="_button _button_release_single"><span><img src="images/releases/1-rico-existence-cdcover.jpg"/></span></button>
@@ -71,7 +71,7 @@
         </div>
     
       </div>
-    </div>
+    </div-->
     
   </div>
   <div class="container _container container-34 clearfix">
@@ -79,9 +79,23 @@
       <p class="text text-23">ALBUM</p>
     </div>
     <div class="container _container container-36 clearfix">
+        <div class="container _container container-release-album-full-block clearfix">
+        <div class="container _container container-release-album-artwork clearfix">
+          <button onClick="window.location='https://itunes.apple.com/hk/artist/rainky-wai/id914085003';" class="_button _button_release_album"><span><img src="images/releases/2-Rainky-clone-cdcover.jpg"/></span></button>
+        </div>
+        <div class="container _container container-release-album-block clearfix">
+          <div class="container _container container-release-album-info clearfix">
+            <p class="text text-release-album-title">複製人</p>
+            <p class="text text-release-album-year">2013</p>
+            <p class="text text-release-album-artist">蔚雨芯</p>
+          </div>
+          <p class="text text-release-album-context">1. 複製人<br/>
+2. 傻瓜機</p>
+        </div>
+      </div>
       <div class="container _container container-release-album-full-block clearfix">
         <div class="container _container container-release-album-artwork clearfix">
-          <button onClick="" class="_button _button_release_album"><span><img src="images/releases/1-Rainky-Raining-cdcover.jpg"/></span></button>
+          <button  onClick="window.location='https://itunes.apple.com/hk/artist/rainky-wai/id914085003';" class="_button _button_release_album"><span><img src="images/releases/1-Rainky-Raining-cdcover.jpg"/></span></button>
         </div>
         <div class="container _container container-release-album-block clearfix">
           <div class="container _container container-release-album-info clearfix">

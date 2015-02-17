@@ -60,7 +60,7 @@ Happy New Year！<br/><br/>
 </div>
     </div>
   </div>
-  <div class="container container-14 clearfix">
+  <!--div class="container container-14 clearfix">
     <div class="container container-15 clearfix">
       <p class="text text-4">VIDEO</p>
     </div>
@@ -104,16 +104,10 @@ Happy New Year！<br/><br/>
             </a>
           </div>
         </div>
-		<!--
-        <button class="_button _button-video"><span>&nbsp;</span></button>
-        <button class="_button _button-video"><span>&nbsp;</span></button>
-        <button class="_button _button-video"><span>&nbsp;</span></button>
-        <button class="_button _button-video"><span>&nbsp;</span></button>
-		-->
       </div>
       <button id="next_button" class="_button _button-13">&gt;</button>
     </div>
-  </div>
+  </div-->
   <!--div class="container container-18 clearfix">
     <div class="container container-19 clearfix">
       <p class="text text-5">MUSIC / DISCOGRAPHY</p>

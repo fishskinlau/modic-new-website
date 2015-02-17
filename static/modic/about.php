@@ -19,17 +19,12 @@
     </div>
   </div>
   <div class="container container-4 clearfix">
-    <div class="container _element container-5"></div>
+    <div class="container _element container-5" style="background: url('./images/bg/background2.jpg') rgb(0, 0, 0); background-size: 100% auto;;background-position: center top;background-attachment: fixed;"></div>
     <div class="container container-6 clearfix">
       <div class="text text-1">
-        <p>SO LONG AGO
-WAS IT IN A DREAM,&nbsp;</p>
-        <p>WAS IT JUST A DREAM?
-I KNOW,</p>
-        <p>&nbsp;YES I KNOW
-SEEMED SO VERY REAL,</p>
-        <p>&nbsp;IT SEEMED SO REAL TO ME</p>
-</div>
+        <p>YOUR LOVE IS THE PLACE WHERE WE CAME FROM</p>
+        
+        </div>
     </div>
   </div>
   <div class="container container-7 clearfix">
@@ -48,7 +43,7 @@ SEEMED SO VERY REAL,</p>
 <br/>
 </br/>澳滌娛樂由藝人管理Modic、舞蹈學校Dance Kingdom及香港超級聯賽球隊YFC澳滌三個單元組成，以不一樣的格局形式和面貌，推廣屬於年輕人的新力量，以充滿朝氣和積極正面的態度譜出生動跳躍的年輕人未來。</p>
         </div>
-        <p class="text text-4">TRY TO SEE IT MY WAY&nbsp;<br>ONLY TIME WILL TELL IF I AM RIGHT OR I AM WRONGWE CAN WORK IT OUT&nbsp;<br>WE CAN WORK IT OUT        </p>
+        <p class="text text-4">GET UP&nbsp;<br>STAND UP&nbsp;<br>DON'T GIVE UP TO FIGHT</p>
       </div>
     </div>
   </div>

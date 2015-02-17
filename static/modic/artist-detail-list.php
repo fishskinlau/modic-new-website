@@ -15,7 +15,7 @@
       </div>
       <div class="container container-artist-detail-list clearfix">
         <button onClick="window.location='artist-tat.php';" class="_button _button-20"><span>&nbsp;</span></button>
-                  <p class="text text-15">TAT&nbsp;<br>狄易達</p>
+                  <p class="text text-15">DI2DA&nbsp;<br>狄易達</p>
 
       </div>
       <div class="container container-artist-detail-list clearfix">

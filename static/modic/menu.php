@@ -22,7 +22,7 @@
 
         <img class="sn-icon-image sn-icon-image-3" src="images/youtube-icon(7)-25x25.png" data-rimage data-src="images/youtube-icon(7)-25x25.png" data-srcat2x="images/youtube-icon(7)-25x25@2x.png">
       </a>
-        <a href="https://twitter.com/modichk">
+        <a href="https://twitter.com/modic_hk">
 <img class="sn-icon-image sn-icon-image-4" src="images/twitter(2)-25x25.png" data-rimage data-src="images/twitter(2)-25x25.png" data-srcat2x="images/twitter(2)-25x25@2x.png">
 </a>
         <a href="http://www.weibo.com/modicentertainment">
