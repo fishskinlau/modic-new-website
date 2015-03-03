@@ -5,9 +5,8 @@ date_default_timezone_set('UTC');
 
 
 // SET YOUR FACEBOOK API DETAILS HERE
-$app_id 	= '659182040871101';
+$app_id = '659182040871101';
 $app_secret = 'f58ad3100dffb13f415a36377da53b51';
-
 // DO NOT EDIT BELOW THIS LINE
 error_reporting(E_ALL ^ E_NOTICE);
 
@@ -31,11 +30,24 @@ if(is_array($pagefeed)) {
 	foreach($pagefeed as $data)
 	{
 		
-		$message = isset($data['message']) ? $data['message'] : '';
+		if(isset($data['message']))
+		{
+			$message = $data['message'];
+		} else if(isset($data['story']))
+		{
+			$message = $data['story'];
+		} else {
+			$message = '';
+		}
 		$link = isset($data['link']) ? $data['link'] : '';
-		$image = isset($data['picture']) ? $data['picture'] : '';
+		$image = isset($data['picture']) ? $data['picture'] : null;
+		$type = isset($data['type']) ? $data['type'] : '';
 		
 		if($message == '' || $link == '') {
+		//	continue;
+		}
+		
+		if($type == 'status' && isset($data['story'])) {
 			continue;
 		}
 
@@ -47,11 +59,13 @@ if(is_array($pagefeed)) {
 		}
 		
 		if(isset($data['object_id'])){
+		
 			if(strpos($image, 'safe_image.php') === false && is_numeric($data['object_id'])) {
 				$image = 'http://graph.facebook.com/'.$data['object_id'].'/picture?type=normal';
 			}
-		}
 		
+		}
+
 		$json_decoded['responseData']['feed']['entries'][$count]['link'] = $link;
 		$json_decoded['responseData']['feed']['entries'][$count]['content'] = $message;
 		$json_decoded['responseData']['feed']['entries'][$count]['thumb'] = $image;
