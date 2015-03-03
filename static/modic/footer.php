@@ -1,8 +1,11 @@
  <div class="container container-footer clearfix">
     <div class="container container-footer-info clearfix">
       <img class="image-footer image-footer-modic-logo" src="images/modic-logo(3)-77x19-3.png" data-rimage data-src="images/modic-logo(3)-77x19-3.png" data-srcat2x="images/modic-logo(3)-77x19-3@2x.png">
-      <img class="image-footer image-footer-dk-logo" src="images/dk-logo-72x44-3.png" data-rimage data-src="images/dk-logo-72x44-3.png" data-srcat2x="images/dk-logo-72x44-3@2x.png">
+        <a href="http://www.dancekingdom.hk">
+      <img class="image-footer image-footer-dk-logo" src="images/dk-logo-72x44-3.png" data-rimage data-src="images/dk-logo-72x44-3.png" data-srcat2x="images/dk-logo-72x44-3@2x.png"> </a>
+     <a href="http://www.yfcmd.com">
       <img class="image-footer image-footer-yfcmd-logo" src="images/yfcmd-logo-30x39-3.png" data-rimage data-src="images/yfcmd-logo-30x39-3.png" data-srcat2x="images/yfcmd-logo-30x39-3@2x.png">
+         </a>
     </div>
     <div class="container container-footer-contact clearfix">
       <div class="text text-footer-tel-email">
@@ -18,5 +21,5 @@
       </div-->
         <div class="  container-footer-quote"></div>
     </div>
-    <div class="text text-footer-copyright">© 2014 a Modic product. all rights reserved.</div>
+    <div class="text text-footer-copyright">© 2015 a Modic product. all rights reserved.</div>
   </div>

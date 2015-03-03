@@ -39,7 +39,7 @@
       <div class="container container-9 clearfix">
         <p class="text text-2">KINKO
  古志鍵</p>
-        <p class="text text-3">由1994年開始接受技巧體操訓練，2002年接觸街舞，是香港首位特技舞蹈員。參與過不同大小比賽，曾獲得連續三屆技巧體操公開組冠軍，及榮獲香港競技體操一級教練証書，將體操同街舞結合。亦曾參與電影《狂舞派》扮演「鍵威」一角。多年來到過不同國家進行舞蹈進修，例如日本，匈牙利和台灣等。曾參與不同編舞及表演。例如擔當澳門國慶回歸15周年的舞蹈總監，及狄易達演唱會的排舞師，為2014香港小姐編舞。更曾與郭富城、周杰倫、飛輪海，S.H.E、古巨基、何韻詩等不同藝人合作，亦參與過PCCW mobile、Samsung 3D、迪士尼春夏秋冬等廣告。<br/></br/>亦為Dance Kingdom 舞蹈總監。&nbsp;</p>
+        <p class="text text-3">由1994年開始接受技巧體操訓練，2002年接觸街舞，是香港首位特技舞蹈員。參與過不同大小比賽，曾獲得連續三屆技巧體操公開組冠軍，及榮獲香港競技體操一級教練証書，將體操同街舞結合。亦曾參與電影《狂舞派》扮演「鍵威」一角。多年來到過不同國家進行舞蹈進修，例如日本，匈牙利和台灣等。曾參與不同編舞及表演。例如擔當澳門國慶回歸15周年的舞蹈總監，及狄易達演唱會的排舞師，為2014香港小姐編舞。更曾與郭富城、周杰倫、飛輪海，S.H.E、古巨基、何韻詩等不同藝人合作，亦參與過PCCW mobile、Samsung 3D、迪士尼春夏秋冬等廣告。亦為Dance Kingdom 舞蹈總監。&nbsp;</p>
       </div>
     </div>
     
@@ -107,7 +107,7 @@
       <div class="container _element container-8"><img src="images/dancekingdom/tasha/tasha-body.jpg" style="width:220px;height:460px"></div>
       <div class="container container-9 clearfix">
         <p class="text text-2">Tasha Lyia黃莉雅</p>
-        <p class="text text-3">7歲開始接觸舞蹈，在電影《狂舞派》中飾演阿飄一角，曾到美國進修多種舞種，現最擅長Jazz Funk，更是Ruby Seven欖球賽首位華人啦啦隊隊員。
+        <p class="text text-3">7歲開始接觸舞蹈，在電影《狂舞派》中飾演阿飄一角，曾到美國進修多種舞種，現最擅長Jazz Funk，更是Rugby Seven欖球賽首位華人啦啦隊隊員。
 Tasha同時參與多項不同類型的工作與演出，當中包括為《香港小姐2014》編排舞蹈，於adidas all in for my girls秋冬及春夏平面廣告中跟劉心悠與薛凱琪合作，曾於劉德華中國巡迴演唱會中演出，亦為容祖兒、張敬軒及官恩娜等伴舞，演出經驗相當豐富。&nbsp;</p>
       </div>
     </div>

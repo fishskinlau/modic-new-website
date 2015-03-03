@@ -131,7 +131,9 @@
 </div>
       </div>
       <div class="container container-39 clearfix">
+          <a href="#">
         <img class="image-frontpage-release-artwork" src="images/releases/4-Di2da-good-lovercover.jpg"  onClick="window.location='https://itunes.apple.com/hk/album/hao-qing-ren-single/id916683084';">
+              </a>
         <div class="text text-38">
           <p>狄易達</p>
           <p>好情人</p>
@@ -191,7 +193,7 @@
 		feeds: {
 			
 			facebook: {
-				id: '283526628524933, Facebook Timeline/283526628524933, Rainky/95072483859851, di2da/304264657663 , Rico/223759697818584 , Dance Kingdom/100008364948649 ',
+				id: 'modicmusic,1627201397506078,di2damusic,rainkywai,223759697818584,221257577916434',
 				url: 'facebook.php',
                 comments:	 0,
                 out:	'intro,thumb,title,text,user'
@@ -206,7 +208,7 @@
 		wall: true,
 		cache: false,
 		max: 'limit',
-		limit: 10,
+		limit: 3,
 		iconPath: 'images/dcsns-dark/',
 		imagePath: 'images/dcsns-dark/'
 	});
