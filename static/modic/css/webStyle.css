@@ -16,6 +16,11 @@
   height: 55px;
 }
 
+.header
+{
+    overflow-x: auto;
+    overflow-y: hidden;
+}
 
 .container-SNICON {
   float: right;
