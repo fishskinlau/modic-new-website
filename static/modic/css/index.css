@@ -29,7 +29,6 @@ body {
   margin: 0 auto;
   background-color: #009db1;
   box-shadow: 0 0 3px rgba(0, 0, 0, .5);
-    overflow-x: scroll;
 }
 
 .header:hover {
@@ -945,4 +944,5 @@ body {
 
   margin: 13px auto 0;
   overflow: hidden;
+    cursor: pointer;
 }
