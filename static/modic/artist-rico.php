@@ -95,7 +95,7 @@
     </div>
     <div class="container container-20 clearfix">
 <div class="container container-album clearfix">
-        <button onClick="window.location='https://itunes.apple.com/hk/album/yi-dong-yi-re-single/id959845318';" class="_button _button-discography-cover"><span><img src="images/releases/1-rico-existence-cdcover.jpg"></span></button>
+        <button onClick="window.location='https://itunes.apple.com/hk/album/cun-zai-gan-single/id938003948';" class="_button _button-discography-cover"><span><img src="images/releases/1-rico-existence-cdcover.jpg"></span></button>
         <div class="container container-discography clearfix">
           <p class="text text-discography-type">SINGLE</p>
           <p class="text text-discography-content">存在感<br><br>1. 存在感<br/>

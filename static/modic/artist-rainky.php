@@ -109,7 +109,7 @@
     </div>
     <div class="container container-20 clearfix">
         <div class="container container-album clearfix">
-        <button onClick="" class="_button _button-discography-cover"><span><img src="images/releases/3-Rainky-toy-cover.jpg"></span></button>
+        <button onclick="window.location='https://itunes.apple.com/hk/album/wan-ju-single/id914085000';" class="_button _button-discography-cover"><span><img src="images/releases/3-Rainky-toy-cover.jpg"></span></button>
         <div class="container container-discography clearfix">
           <p class="text text-discography-type">SINGLE</p>
           <p class="text text-discography-content">玩具<br><br>1. 玩具</p>
@@ -117,7 +117,7 @@
       </div>
         
         <div class="container container-album clearfix">
-        <button onClick="" class="_button _button-discography-cover"><span><img src="images/releases/2-Rainky-clone-cdcover.jpg"></span></button>
+        <button onclick="window.location='https://itunes.apple.com/hk/artist/rainky-wai/id914085003';"  class="_button _button-discography-cover"><span><img src="images/releases/2-Rainky-clone-cdcover.jpg"></span></button>
         <div class="container container-discography clearfix">
           <p class="text text-discography-type">EP</p>
           <p class="text text-discography-content">複製人<br><br>1. 複製人<br/>
@@ -126,7 +126,7 @@
       </div>
         
         <div class="container container-album clearfix">
-        <button onClick="" class="_button _button-discography-cover"><span><img src="images/releases/1-Rainky-Raining-cdcover.jpg"></span></button>
+        <button onclick="window.location='https://itunes.apple.com/hk/artist/rainky-wai/id914085003';"  class="_button _button-discography-cover"><span><img src="images/releases/1-Rainky-Raining-cdcover.jpg"></span></button>
         <div class="container container-discography clearfix">
           <p class="text text-discography-type">EP</p>
           <p class="text text-discography-content">Raining<br><br>1. Missing You<br/>
